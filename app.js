@@ -400,6 +400,23 @@ function goHome() {
 }
 
 // ── helpers ──────────────────────────────────────────────────────────────────
+function loadHistory(examId) {
+  try {
+    return JSON.parse(localStorage.getItem(`quiz_history_${examId}`)) || [];
+  } catch (e) {
+    return [];
+  }
+}
+
+function saveHistory(examId, result) {
+  const history = loadHistory(examId);
+  history.unshift(result);
+  if (history.length > 5) history.length = 5;
+  try {
+    localStorage.setItem(`quiz_history_${examId}`, JSON.stringify(history));
+  } catch (e) {}
+}
+
 function showScreen(name) {
   document.getElementById('screen-home').style.display   = name === 'home'   ? 'block' : 'none';
   document.getElementById('screen-result').style.display = name === 'result' ? 'block' : 'none';
