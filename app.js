@@ -402,7 +402,8 @@ function goHome() {
 // ── helpers ──────────────────────────────────────────────────────────────────
 function loadHistory(examId) {
   try {
-    return JSON.parse(localStorage.getItem(`quiz_history_${examId}`)) || [];
+    const data = JSON.parse(localStorage.getItem(`quiz_history_${examId}`));
+    return Array.isArray(data) ? data : [];
   } catch (e) {
     return [];
   }
@@ -414,7 +415,7 @@ function saveHistory(examId, result) {
   if (history.length > 5) history.length = 5;
   try {
     localStorage.setItem(`quiz_history_${examId}`, JSON.stringify(history));
-  } catch (e) {}
+  } catch (e) { console.warn('saveHistory: could not write to localStorage', e); }
 }
 
 function showScreen(name) {
