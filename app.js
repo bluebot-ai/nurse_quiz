@@ -305,6 +305,7 @@ function finishExam() {
 
   const qs      = state.questions;
   let correct = 0, wrong = 0, skipped = 0;
+  const wrongNums = [];
 
   for (const q of qs) {
     const num = q.num;
@@ -315,11 +316,19 @@ function finishExam() {
     const userSel     = state.userAnswers[num] || [];
     const correctKeys = [...q.answer];
     if (arraysEqual(userSel.sort(), correctKeys.sort())) correct++;
-    else wrong++;
+    else { wrong++; wrongNums.push(num); }
   }
 
   const total  = qs.length;
   const pct    = Math.round((correct / total) * 100);
+  saveHistory(state.examId, {
+    date: new Date().toISOString().slice(0, 10),
+    score: pct,
+    correct,
+    wrong,
+    skipped,
+    wrongNums,
+  });
   const pass   = pct >= 60;
 
   document.getElementById('result-title').textContent = '測驗結果';
