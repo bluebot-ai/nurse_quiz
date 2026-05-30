@@ -75,9 +75,28 @@ function buildCard(exam) {
     ).join('');
     const histEl = document.createElement('div');
     histEl.className = 'card-history';
+
+    let wrongNumsHtml = '';
+    if (last.wrongNums && last.wrongNums.length > 0) {
+      const nums = last.wrongNums.length > 10
+        ? last.wrongNums.slice(0, 10).join('、') + `…共 ${last.wrongNums.length} 題`
+        : last.wrongNums.join('、');
+      wrongNumsHtml = `<div class="history-wrong-nums">上次錯題：${nums}</div>`;
+    }
+
     histEl.innerHTML = `
       <div class="history-summary">上次 <strong>${last.score}%</strong>・共練習 <strong>${history.length}</strong> 次</div>
-      <div class="history-trend">${dots}</div>`;
+      <div class="history-trend">${dots}</div>
+      ${wrongNumsHtml}`;
+
+    if (last.wrongNums && last.wrongNums.length > 0) {
+      const wrongBtn = document.createElement('button');
+      wrongBtn.className = 'btn-wrong-review';
+      wrongBtn.textContent = `練習上次錯題（${last.wrongNums.length} 題）`;
+      wrongBtn.onclick = () => startWrongReview(exam.file, exam.id, last.wrongNums);
+      histEl.appendChild(wrongBtn);
+    }
+
     card.appendChild(histEl);
   }
 
@@ -91,6 +110,18 @@ function startExam(file, id, shuffleId) {
     .then(r => r.json())
     .then(data => launchQuiz(data, id, shuffle))
     .catch(() => alert('無法載入試題，請確認 data/ 資料夾存在'));
+}
+
+function startWrongReview(file, examId, wrongNums) {
+  fetch(file)
+    .then(r => r.json())
+    .then(data => {
+      const numSet = new Set(wrongNums);
+      const filtered = data.questions.filter(q => numSet.has(q.num));
+      if (filtered.length === 0) { alert('找不到對應題目'); return; }
+      launchQuiz({ title: data.title, questions: filtered }, examId, false);
+    })
+    .catch(() => alert('無法載入試題'));
 }
 
 function launchQuiz(data, id, shuffle) {
