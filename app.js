@@ -66,6 +66,21 @@ function buildCard(exam) {
     <button class="btn-start" onclick="startExam('${exam.file}', '${exam.id}', '${shuffleId}')">
       開始測驗
     </button>`;
+
+  const history = loadHistory(exam.id);
+  if (history.length > 0) {
+    const last = history[0];
+    const dots = history.slice().reverse().map(h =>
+      `<span class="trend-dot ${h.score >= 60 ? 'green' : 'red'}">${h.score}%</span>`
+    ).join('');
+    const histEl = document.createElement('div');
+    histEl.className = 'card-history';
+    histEl.innerHTML = `
+      <div class="history-summary">上次 <strong>${last.score}%</strong>・共練習 <strong>${history.length}</strong> 次</div>
+      <div class="history-trend">${dots}</div>`;
+    card.appendChild(histEl);
+  }
+
   return card;
 }
 
