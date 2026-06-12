@@ -317,7 +317,8 @@
       },
       "answer": "D",
       "is_multi": false,
-      "has_image": true
+      "has_image": true,
+      "image": "data/images/110_neike_fig1.jpg"
     },
     {
       "num": 25,
@@ -460,7 +461,8 @@
       },
       "answer": "D",
       "is_multi": false,
-      "has_image": true
+      "has_image": true,
+      "image": "data/images/110_neike_fig2.jpg"
     },
     {
       "num": 36,
@@ -499,7 +501,8 @@
       },
       "answer": "D",
       "is_multi": false,
-      "has_image": true
+      "has_image": true,
+      "image": "data/images/110_neike_fig3.jpg"
     },
     {
       "num": 39,

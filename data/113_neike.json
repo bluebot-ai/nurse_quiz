@@ -174,7 +174,11 @@
       },
       "answer": "C",
       "is_multi": false,
-      "has_image": true
+      "has_image": true,
+      "image": [
+        "data/images/113_neike_fig1.jpg",
+        "data/images/113_neike_fig2.jpg"
+      ]
     },
     {
       "num": 14,
@@ -213,7 +217,8 @@
       },
       "answer": "D",
       "is_multi": false,
-      "has_image": true
+      "has_image": true,
+      "image": "data/images/113_neike_fig3.jpg"
     },
     {
       "num": 17,
@@ -252,7 +257,8 @@
       },
       "answer": "D",
       "is_multi": false,
-      "has_image": true
+      "has_image": true,
+      "image": "data/images/113_neike_fig4.jpg"
     },
     {
       "num": 20,
@@ -408,7 +414,8 @@
       },
       "answer": "B",
       "is_multi": false,
-      "has_image": true
+      "has_image": true,
+      "image": "data/images/113_neike_fig5.jpg"
     },
     {
       "num": 32,
@@ -746,7 +753,11 @@
       },
       "answer": "D",
       "is_multi": false,
-      "has_image": true
+      "has_image": true,
+      "image": [
+        "data/images/113_neike_fig6.jpg",
+        "data/images/113_neike_fig7.jpg"
+      ]
     },
     {
       "num": 58,
@@ -889,7 +900,8 @@
       },
       "answer": "B",
       "is_multi": false,
-      "has_image": true
+      "has_image": true,
+      "image": "data/images/113_neike_fig8.jpg"
     },
     {
       "num": 69,
@@ -967,7 +979,8 @@
       },
       "answer": "D",
       "is_multi": false,
-      "has_image": true
+      "has_image": true,
+      "image": "data/images/113_neike_fig9.jpg"
     },
     {
       "num": 75,

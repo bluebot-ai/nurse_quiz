@@ -915,7 +915,8 @@
       },
       "answer": "B",
       "is_multi": false,
-      "has_image": true
+      "has_image": true,
+      "image": "data/images/112_tonglun_fig2.jpg"
     },
     {
       "num": 71,

@@ -291,7 +291,8 @@
       },
       "answer": "B",
       "is_multi": false,
-      "has_image": true
+      "has_image": true,
+      "image": "data/images/111_neike_fig1.jpg"
     },
     {
       "num": 23,
@@ -330,7 +331,8 @@
       },
       "answer": "C",
       "is_multi": false,
-      "has_image": true
+      "has_image": true,
+      "image": "data/images/111_neike_fig2.jpg"
     },
     {
       "num": 26,
@@ -473,7 +475,8 @@
       },
       "answer": "B",
       "is_multi": false,
-      "has_image": true
+      "has_image": true,
+      "image": "data/images/111_neike_fig3.jpg"
     },
     {
       "num": 37,
@@ -499,7 +502,8 @@
       },
       "answer": "A",
       "is_multi": false,
-      "has_image": true
+      "has_image": true,
+      "image": "data/images/111_neike_fig4.jpg"
     },
     {
       "num": 39,
