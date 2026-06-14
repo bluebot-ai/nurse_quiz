@@ -551,7 +551,8 @@
       },
       "answer": "AC",
       "is_multi": true,
-      "has_image": false
+      "has_image": true,
+      "image": "data/images/109_tonglun_q42_1.jpg"
     },
     {
       "num": 43,

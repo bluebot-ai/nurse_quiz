@@ -31,7 +31,13 @@
       },
       "answer": "C",
       "is_multi": false,
-      "has_image": false
+      "has_image": true,
+      "option_images": {
+        "A": "data/images/113_neike_q2_A.jpg",
+        "B": "data/images/113_neike_q2_B.jpg",
+        "C": "data/images/113_neike_q2_C.jpg",
+        "D": "data/images/113_neike_q2_D.jpg"
+      }
     },
     {
       "num": 3,
@@ -176,8 +182,8 @@
       "is_multi": false,
       "has_image": true,
       "image": [
-        "data/images/113_neike_fig1.jpg",
-        "data/images/113_neike_fig2.jpg"
+        "data/images/113_neike_q13_1.jpg",
+        "data/images/113_neike_q13_2.jpg"
       ]
     },
     {
@@ -218,7 +224,7 @@
       "answer": "D",
       "is_multi": false,
       "has_image": true,
-      "image": "data/images/113_neike_fig3.jpg"
+      "image": "data/images/113_neike_q16_1.jpg"
     },
     {
       "num": 17,
@@ -258,7 +264,7 @@
       "answer": "D",
       "is_multi": false,
       "has_image": true,
-      "image": "data/images/113_neike_fig4.jpg"
+      "image": "data/images/113_neike_q19_1.jpg"
     },
     {
       "num": 20,
@@ -415,7 +421,7 @@
       "answer": "B",
       "is_multi": false,
       "has_image": true,
-      "image": "data/images/113_neike_fig5.jpg"
+      "image": "data/images/113_neike_q31_1.jpg"
     },
     {
       "num": 32,
@@ -483,8 +489,8 @@
       "has_image": false
     },
     {
-      "num": 2,
-      "stem": "5mg/dL，理學檢查發現有輕度肝腦病變(hepatic encephalopathy)，腹部超音波檢查有大量 腹水(ascites)。這位病人Child-Turcotte-Pugh分類為何？",
+      "num": 37,
+      "stem": "病人診斷肝硬化，最近抽血檢驗值為albumin 3.3 g/dL、prothrombin time INR 2、total bilirubin 2.5mg/dL，理學檢查發現有輕度肝腦病變(hepatic encephalopathy)，腹部超音波檢查有大量 腹水(ascites)。這位病人Child-Turcotte-Pugh分類為何？",
       "options": {
         "A": "A",
         "B": "B",
@@ -755,8 +761,8 @@
       "is_multi": false,
       "has_image": true,
       "image": [
-        "data/images/113_neike_fig6.jpg",
-        "data/images/113_neike_fig7.jpg"
+        "data/images/113_neike_q57_1.jpg",
+        "data/images/113_neike_q57_2.jpg"
       ]
     },
     {
@@ -901,7 +907,7 @@
       "answer": "B",
       "is_multi": false,
       "has_image": true,
-      "image": "data/images/113_neike_fig8.jpg"
+      "image": "data/images/113_neike_q68_1.jpg"
     },
     {
       "num": 69,
@@ -980,7 +986,10 @@
       "answer": "D",
       "is_multi": false,
       "has_image": true,
-      "image": "data/images/113_neike_fig9.jpg"
+      "image": [
+        "data/images/113_neike_q74_1.jpg",
+        "data/images/113_neike_q74_2.jpg"
+      ]
     },
     {
       "num": 75,

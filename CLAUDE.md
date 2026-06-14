@@ -53,12 +53,17 @@ nurse_quiz/
       "options": { "A": "...", "B": "...", "C": "...", "D": "..." },
       "answer": "C",        // 單選；複選如 "BD"；送分如 "送分"
       "is_multi": false,    // true 代表複選（answer 長度 > 1）
-      "has_image": false,   // 題目含圖片
-      "image": null         // 圖片路徑，有圖時為字串或字串陣列
+      "has_image": false,   // 題目含圖片（題幹圖或選項圖皆會設 true）
+      "image": null         // 題幹圖路徑：字串（單圖）或字串陣列（一題多圖，如圖六含甲/乙兩張）
+      // "option_images": { "A": "...", "B": "...", ... }  // 選項本身是圖片時才有（如 113內科 Q2 四張心電圖）
     }
   ]
 }
 ```
+
+**圖片欄位：**
+- `image` — 題幹引用的圖（`圖(一)`、`如附圖`、`心電圖如下`…）。一題可有多張圖（PA+lateral、甲+乙），此時為陣列。
+- `option_images` — A/B/C/D 選項本身就是圖片（`options` 文字為空），由 `app.js` 在每個選項按鈕內渲染圖片。
 
 **answer 格式：**
 - 單選：`"C"`
@@ -93,14 +98,19 @@ state = { examId, questions[], currentIndex, userAnswers{}, confirmed{}, skipped
 
 ## PDF 解析注意事項
 
-- **pdfplumber** 安裝：`python3 -m pip install pdfplumber --user --break-system-packages`
+- **parse_pdfs.py** 用 pdfplumber；**extract_images.py** 改用 **PyMuPDF(fitz) + Pillow**：
+  `python3 -m pip install pymupdf pillow --user --break-system-packages`
 - **109 年答案卷格式**與 110+ 不同：格狀排列（題號列 + 答案列），且夾雜水印字（標、準、答、案）
 - **110 年通論 Q10**：PDF 水印「公告試題」嵌入選項文字，導致選項 B 缺損，答案仍正確
-- **圖片擷取**：以 MD5 過濾背景圖（每頁出現的白底重複圖），只留實際題目圖
-- **圖對應**：題幹中的「圖(一)」對應該 PDF 第 1 張實際圖，依此類推
+- **圖片擷取（extract_images.py）**：
+  - 用 fitz 取得每頁圖片的「視覺位置」(top, left)，依閱讀順序排列（**不可用 pdfplumber 的物件順序，會錯位**）。
+  - 以 MD5 過濾背景浮水印（出現在 ≥ 半數頁面者）、略過第 1 頁說明、過濾 < 5000px² 小圖。
+  - **歸屬法**：每張圖指派給「題幹在它上方、最接近的那一題」（偵測左邊界的題號 `23.`，題號只會遞增 1..80；部分 PDF 題號前有雜訊字元 `ˉ`，正則需容忍）。
+  - 題幹有 `圖(N)`/`如附圖`/`如下` → 存成 `image`（一題多圖則為陣列）；選項為空白（圖片選項）→ 存成 `option_images`。
+- **parse_pdfs.py 已知 bug**：113 內科把第 37 題的題號誤判為「2」且題幹被截斷（已在 `data/113_neike.json` 手動修正，重跑 parse 會再壞）。
 
 ## 已知限制
 
-- 109 年試題無圖（PDF 圖片為浮水印非題目圖）
+- **109 年其實有題目圖**（內科 Q15/35/36、通論 Q42；舊文件誤記為無圖，現已可顯示）
 - 110 年內科部分圖片解析度低（原 PDF 如此）
-- 113 年內科圖片數 > 圖引數，多餘圖片未被引用（PDF 內有重複圖）
+- 113 年內科 PDF 含重複圖（同一張圖在不同頁出現），歸屬法只取題幹下方那張，不再錯位

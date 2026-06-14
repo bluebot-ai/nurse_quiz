@@ -902,7 +902,8 @@
       },
       "answer": "D",
       "is_multi": false,
-      "has_image": false
+      "has_image": true,
+      "image": "data/images/112_tonglun_q69_1.jpg"
     },
     {
       "num": 70,
@@ -916,7 +917,7 @@
       "answer": "B",
       "is_multi": false,
       "has_image": true,
-      "image": "data/images/112_tonglun_fig2.jpg"
+      "image": "data/images/112_tonglun_q70_1.jpg"
     },
     {
       "num": 71,

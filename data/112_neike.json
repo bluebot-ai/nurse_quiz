@@ -305,7 +305,7 @@
       "answer": "D",
       "is_multi": false,
       "has_image": true,
-      "image": "data/images/112_neike_fig1.jpg"
+      "image": "data/images/112_neike_q23_1.jpg"
     },
     {
       "num": 24,
@@ -358,7 +358,7 @@
       "answer": "B",
       "is_multi": false,
       "has_image": true,
-      "image": "data/images/112_neike_fig2.jpg"
+      "image": "data/images/112_neike_q27_1.jpg"
     },
     {
       "num": 28,
@@ -424,7 +424,7 @@
       "answer": "A",
       "is_multi": false,
       "has_image": true,
-      "image": "data/images/112_neike_fig3.jpg"
+      "image": "data/images/112_neike_q32_1.jpg"
     },
     {
       "num": 33,
@@ -477,7 +477,7 @@
       "answer": "D",
       "is_multi": false,
       "has_image": true,
-      "image": "data/images/112_neike_fig4.jpg"
+      "image": "data/images/112_neike_q36_1.jpg"
     },
     {
       "num": 37,
@@ -492,8 +492,8 @@
       "is_multi": false,
       "has_image": true,
       "image": [
-        "data/images/112_neike_fig5.jpg",
-        "data/images/112_neike_fig6.jpg"
+        "data/images/112_neike_q37_1.jpg",
+        "data/images/112_neike_q37_2.jpg"
       ]
     },
     {
@@ -534,7 +534,7 @@
       "answer": "B",
       "is_multi": false,
       "has_image": true,
-      "image": "data/images/112_neike_fig7.jpg"
+      "image": "data/images/112_neike_q40_1.jpg"
     },
     {
       "num": 41,

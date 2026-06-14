@@ -292,7 +292,7 @@
       "answer": "B",
       "is_multi": false,
       "has_image": true,
-      "image": "data/images/111_neike_fig1.jpg"
+      "image": "data/images/111_neike_q22_1.jpg"
     },
     {
       "num": 23,
@@ -332,7 +332,7 @@
       "answer": "C",
       "is_multi": false,
       "has_image": true,
-      "image": "data/images/111_neike_fig2.jpg"
+      "image": "data/images/111_neike_q25_1.jpg"
     },
     {
       "num": 26,
@@ -476,7 +476,7 @@
       "answer": "B",
       "is_multi": false,
       "has_image": true,
-      "image": "data/images/111_neike_fig3.jpg"
+      "image": "data/images/111_neike_q36_1.jpg"
     },
     {
       "num": 37,
@@ -503,7 +503,7 @@
       "answer": "A",
       "is_multi": false,
       "has_image": true,
-      "image": "data/images/111_neike_fig4.jpg"
+      "image": "data/images/111_neike_q38_1.jpg"
     },
     {
       "num": 39,
@@ -662,8 +662,8 @@
       "has_image": false
     },
     {
-      "num": 1,
-      "stem": "4g/dL，protein是2.6g/dL。同時抽血，血清白蛋白(serum albumin)是2.8g/dL，下列 何者是最可能的病因？",
+      "num": 51,
+      "stem": "六十歲男性，最近三個月腹圍逐漸增加且呼吸喘促，來門診就醫。理學檢查發現腹部膨隆(swelling of abdomen)和移動性濁音(shifting dullness)陽性，以超音波導引進行腹腔穿刺術(paracentesis)抽出淡黃色澄清液體送檢，腹水中的白蛋白(ascites albumin)是1.4g/dL，protein是2.6g/dL。同時抽血，血清白蛋白(serum albumin)是2.8g/dL，下列 何者是最可能的病因？",
       "options": {
         "A": "peritoneal tuberculosis",
         "B": "constrictive pericarditis",

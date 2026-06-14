@@ -1,1 +1,3 @@
-./quiz/
+quiz/
+__pycache__/
+*.pyc

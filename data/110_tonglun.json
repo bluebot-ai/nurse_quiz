@@ -811,7 +811,7 @@
       "answer": "C",
       "is_multi": false,
       "has_image": true,
-      "image": "data/images/110_tonglun_fig1.jpg"
+      "image": "data/images/110_tonglun_q62_1.jpg"
     },
     {
       "num": 63,
@@ -903,7 +903,7 @@
       "answer": "A",
       "is_multi": false,
       "has_image": true,
-      "image": "data/images/110_tonglun_fig2.jpg"
+      "image": "data/images/110_tonglun_q69_1.jpg"
     },
     {
       "num": 70,
@@ -943,7 +943,7 @@
       "answer": "B",
       "is_multi": false,
       "has_image": true,
-      "image": "data/images/110_tonglun_fig3.jpg"
+      "image": "data/images/110_tonglun_q72_1.jpg"
     },
     {
       "num": 73,

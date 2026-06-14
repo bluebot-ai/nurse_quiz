@@ -181,6 +181,7 @@ function renderQuiz() {
   const userSel     = state.userAnswers[num] || [];
   const correctKeys = q.answer ? [...q.answer] : [];
 
+  const optImages = q.option_images || null;
   for (const [key, text] of Object.entries(q.options)) {
     const btn = document.createElement('button');
     btn.className = 'option-btn';
@@ -196,7 +197,16 @@ function renderQuiz() {
       btn.classList.add('selected');
     }
 
-    btn.innerHTML = `<span class="opt-label">${key}</span><span>${text}</span>`;
+    const imgSrc = optImages && optImages[key];
+    if (imgSrc) {
+      btn.classList.add('option-img-btn');
+      btn.innerHTML = `<span class="opt-label">${key}</span>`
+        + `<img class="opt-img" src="${imgSrc}" alt="選項 ${key}">`;
+      // tap image to zoom, tap elsewhere on the button to select
+      btn.querySelector('.opt-img').onclick = (e) => { e.stopPropagation(); openImgModal(imgSrc); };
+    } else {
+      btn.innerHTML = `<span class="opt-label">${key}</span><span>${text}</span>`;
+    }
     btn.onclick   = () => selectOption(key);
     optList.appendChild(btn);
   }

@@ -200,7 +200,8 @@
       },
       "answer": "C",
       "is_multi": false,
-      "has_image": false
+      "has_image": true,
+      "image": "data/images/109_neike_q15_1.jpg"
     },
     {
       "num": 16,
@@ -460,7 +461,8 @@
       },
       "answer": "B",
       "is_multi": false,
-      "has_image": false
+      "has_image": true,
+      "image": "data/images/109_neike_q35_1.jpg"
     },
     {
       "num": 36,
@@ -473,7 +475,8 @@
       },
       "answer": "AC",
       "is_multi": true,
-      "has_image": false
+      "has_image": true,
+      "image": "data/images/109_neike_q36_1.jpg"
     },
     {
       "num": 37,
