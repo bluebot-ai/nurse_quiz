@@ -490,7 +490,7 @@
     },
     {
       "num": 37,
-      "stem": "病人診斷肝硬化，最近抽血檢驗值為albumin 3.3 g/dL、prothrombin time INR 2、total bilirubin 2.5mg/dL，理學檢查發現有輕度肝腦病變(hepatic encephalopathy)，腹部超音波檢查有大量 腹水(ascites)。這位病人Child-Turcotte-Pugh分類為何？",
+      "stem": "病人診斷肝硬化，最近抽血檢驗值為albumin 3.3g/dL、prothrombin time INR 2、total bilirubin 2.5mg/dL，理學檢查發現有輕度肝腦病變(hepatic encephalopathy)，腹部超音波檢查有大量 腹水(ascites)。這位病人Child-Turcotte-Pugh分類為何？",
       "options": {
         "A": "A",
         "B": "B",
@@ -986,10 +986,7 @@
       "answer": "D",
       "is_multi": false,
       "has_image": true,
-      "image": [
-        "data/images/113_neike_q74_1.jpg",
-        "data/images/113_neike_q74_2.jpg"
-      ]
+      "image": "data/images/113_neike_q74_1.jpg"
     },
     {
       "num": 75,

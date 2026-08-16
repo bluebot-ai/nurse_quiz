@@ -1,0 +1,1064 @@
+{
+  "id": "105_neike",
+  "title": "105年度 內科",
+  "subtitle": "進階專科護理",
+  "year": 105,
+  "ad_year": 2016,
+  "subject": "內科",
+  "total": 80,
+  "questions": [
+    {
+      "num": 1,
+      "stem": "李小姐，左乳有6 × 11公分具嚴重臭味的腫瘤蕈狀傷口，使用下列何種敷料最適合？",
+      "options": {
+        "A": "濕性敷料 ( wet dressing )",
+        "B": "透明凝膠 ( hydrogels )",
+        "C": "乾紗 ( dry gauze )",
+        "D": "含銀的抗菌敷料 ( antimicrobial dressing )"
+      },
+      "answer": "D",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 2,
+      "stem": "關於使用鴉片類止痛藥物之描述，下列何者錯誤？",
+      "options": {
+        "A": "methadone 為強效止痛製劑，沒有止痛極限效應 ( analgesic ceiling )",
+        "B": "fentanyl 皮膚貼片貼上後立即有效，所以不需使用口服止痛藥物",
+        "C": "meperidine 只能用於緩解急性疼痛，不適合長期使用於慢性疼痛病人",
+        "D": "naloxone 為鴉片類藥物拮抗劑，可立即緩解呼吸抑制的副作用"
+      },
+      "answer": "B",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 3,
+      "stem": "下列何者是「過敏性休克」的首選升壓或強心藥物？",
+      "options": {
+        "A": "epinephrine",
+        "B": "dopamine",
+        "C": "vasopressin",
+        "D": "norepinephrine"
+      },
+      "answer": "A",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 4,
+      "stem": "有關dopamine 投予劑量與作用的敘述，下列何者正確？",
+      "options": {
+        "A": "< 5 mcg/kg/min 時，作用於peripheral α-receptors，使血壓上升",
+        "B": "5-10 mcg/kg/min 時，作用於 cardiac β -receptors，使心收縮力上升 1",
+        "C": "6-14 mcg/kg/min 時，為vasodilator，可增加腎血流量",
+        "D": "> 15 mcg/kg/min 時，作用於 cardiac β -receptors，使心輸出量上升 2"
+      },
+      "answer": "B",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 5,
+      "stem": "有關癌症TNM分期，下列敘述何者正確？",
+      "options": {
+        "A": "T代表腫瘤大小，T1~T4代表第I期到第IV期的癌症",
+        "B": "N代表淋巴結侵犯，N0指沒有淋巴結侵犯，N1~N3數字愈高代表淋巴結侵犯程度 愈嚴重 ( 數目或區域等 )",
+        "C": "M代表轉移，M0指沒有轉移，M1、M2...等數字愈高轉移愈遠或愈多處",
+        "D": "適用於各種癌症，包括造血幹細胞惡性腫瘤 ( 例如白血病 )"
+      },
+      "answer": "B",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 6,
+      "stem": "左側鎖骨下出現淋巴結腫大 ( 又稱為Virchow’s node )， 應優先考慮下列何種疾病？",
+      "options": {
+        "A": "鼻咽癌",
+        "B": "肺癌",
+        "C": "淋巴癌",
+        "D": "胃癌"
+      },
+      "answer": "D",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 7,
+      "stem": "一位35歲女性，抽血發現alpha fetoprotein 數值高於正常值，除肝癌及急性肝細胞壞死外， 仍需進一步考慮下列哪些狀況？① 懷孕 ② 脂肪肝 ③ 胰臟癌 ④ germ cell tumor",
+      "options": {
+        "A": "① ②",
+        "B": "② ③",
+        "C": "③ ④",
+        "D": "① ④"
+      },
+      "answer": "D",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 8,
+      "stem": "下列何項痰液培養結果較能確診是由該病原體所引起的肺炎？",
+      "options": {
+        "A": "Staphylococcus epidermis",
+        "B": "Non-tuberculosis mycobacterium",
+        "C": "Mycobacterium tuberculosis",
+        "D": "Candida albicans"
+      },
+      "answer": "C",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 9,
+      "stem": "一位56歲女性因陳舊性腦中風住在安養中心，長期放置導尿管，機構人員於例行性尿液檢查 發現有白血球及細菌，但無發燒及泌尿道感染症狀，下列處置何者最適當？",
+      "options": {
+        "A": "立即給予口服抗生素治療",
+        "B": "立即送至急診室做進一步診治",
+        "C": "送尿液細菌培養，若陽性則給予靜脈抗生素治療",
+        "D": "可先行觀察，若有發燒或泌尿道感染症狀再處理"
+      },
+      "answer": "D",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 10,
+      "stem": "一位50歲男性診斷為慢性腎臟病第四期，服用furosemide 40 mg qd，主訴長期胃口不佳， 倦怠，肌肉抽搐至門診求治。實驗室檢查發現calcium 7.1 mg/dL，albumin 2.9 g/dL，身體檢查 評估時較可能出現下列何種徵象？",
+      "options": {
+        "A": "Cullen’s sign (+)",
+        "B": "Chvostek’s sign (+)",
+        "C": "Turner’s sign (+)",
+        "D": "Psoas sign (+)"
+      },
+      "answer": "B",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 11,
+      "stem": "一位65歲男性診斷為鱗狀上皮細胞肺癌，有骨骼及肝臟轉移。近日易疲倦，食慾不振， 體重減輕，肌肉無力，血中calcium濃度為13 mg/dL，下列何項處置較合適？",
+      "options": {
+        "A": "限水800 mL/day",
+        "B": "予以0.45%或0.9% Saline 250-500 mL/h靜脈注射",
+        "C": "予以thiazides類利尿劑以利鈣離子排出",
+        "D": "必須長期使用calcitonin以持續維持鈣離子的平衡"
+      },
+      "answer": "B",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 12,
+      "stem": "一位22歲男性被1500伏特的高壓電電傷送到急診室，最可能出現的心電圖表徵為何？",
+      "options": {
+        "A": "PR interval shortening with RBBB",
+        "B": "QT prolongation",
+        "C": "peaked T wave, widened QRSs",
+        "D": "sinus tachycardia"
+      },
+      "answer": "C",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 13,
+      "stem": "一位 55 歲女性因肺炎及出現嚴重休克狀況住加護中心治療，為其計算基礎能量消耗 ( basal energy expenditure, BEE )時，應考量因素不包括下列何者？",
+      "options": {
+        "A": "性別",
+        "B": "身高及體重",
+        "C": "年齡",
+        "D": "血中albumin濃度"
+      },
+      "answer": "D",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 14,
+      "stem": "李小姐 22 歲，在八仙塵爆意外中，不幸造成整個前胸及腹部、左全上肢及左全下肢 的深二度及三度的灼傷。依照九法則 ( rule-of-nines ) 的估計，其燒傷的面積約占多少 體表總面積？",
+      "options": {
+        "A": "27%",
+        "B": "36%",
+        "C": "45%",
+        "D": "54%"
+      },
+      "answer": "C",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 15,
+      "stem": "承上題，李小姐在燒傷中心治療期間，因前胸及左手臂極度腫脹，需進行焦痂切開術 ( escharotomy )，此項手術最主要的目的為何？",
+      "options": {
+        "A": "防治腔隙症候群，避免神經及血管壓迫",
+        "B": "可以減少局部菌叢，以減少發生敗血症的機會",
+        "C": "會增加回心血量，增加心臟前負荷，進而增加心輸出量",
+        "D": "可以增加入球小動脈的血量，並提高腎絲球廓清率"
+      },
+      "answer": "A",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 16,
+      "stem": "關於嚴重敗血症的early goal-directed therapy ( EGDT )，下列敘述何者正確？",
+      "options": {
+        "A": "若液體復甦無反應，vasopressin為首選藥",
+        "B": "在六小時內開始執行EGDT能降低死亡率",
+        "C": "膠質溶液優於晶質溶液",
+        "D": "應維持ScvO > 60%、MBP > 65 mmHg 2"
+      },
+      "answer": "B",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 17,
+      "stem": "為避免手術部位感染，預防性抗生素投注最佳時機為何時？ 並應於何時停用？",
+      "options": {
+        "A": "術前30分鐘，術後24小時內停用",
+        "B": "術前1小時，術後36小時內停用",
+        "C": "術前30分鐘，術後48小時內停用",
+        "D": "術前1小時，術後72小時內停用"
+      },
+      "answer": "A",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 18,
+      "stem": "下列哪些數值符合成人系統性發炎反應症候群 ( systemic inflammatory response syndrome ) 的診斷標準 ( criteria )？ ① 體溫 < 36C ② PaCO < 40 mmHg ③ 心跳 > 110 次/分鐘 2 ④ WBC > 12,000/mm3 ⑤ 呼吸 > 20次/分鐘 ⑥ WBC < 3,000/mm3",
+      "options": {
+        "A": "① ② ③",
+        "B": "② ③ ⑥",
+        "C": "④ ⑤ ⑥",
+        "D": "① ④ ⑤"
+      },
+      "answer": "D",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 19,
+      "stem": "下列何者為敗血性休克的初期血流動力學變化？",
+      "options": {
+        "A": "肺微血管楔壓、心輸出量、全身血管阻力",
+        "B": "肺微血管楔壓、心輸出量、全身血管阻力",
+        "C": "肺微血管楔壓、心輸出量、全身血管阻力",
+        "D": "肺微血管楔壓、心輸出量、全身血管阻力"
+      },
+      "answer": "B",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 20,
+      "stem": "一位50歲男性，飲食均衡卻發生缺鐵性貧血，應先懷疑下列何種癌症的可能性？",
+      "options": {
+        "A": "惡性大腸癌",
+        "B": "急性白血病",
+        "C": "惡性肝癌",
+        "D": "惡性肺腺癌"
+      },
+      "answer": "A",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 21,
+      "stem": "攝護腺癌的預後重要因子，不包含下列何者？",
+      "options": {
+        "A": "Gleason score",
+        "B": "治療前PSA ( prostate-specific antigen )",
+        "C": "PSA velocity",
+        "D": "臨床期別"
+      },
+      "answer": "C",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 22,
+      "stem": "癌症病人接受診斷及治療時，下列何者不是專科護理師得於醫師監督下執行之醫療業務？",
+      "options": {
+        "A": "電腦斷層掃描檢查單之代為開立",
+        "B": "腹腔穿刺術抽取腹水以送檢",
+        "C": "胸腔腫瘤手術術後穩定時胸管拔除",
+        "D": "化療藥物處方醫囑單之代為開立"
+      },
+      "answer": "B",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 23,
+      "stem": "依據衛生福利部於 104年之公告，專科護理師得於醫師監督下執行心臟整流術。請問在 門診急救中心的中年男子血壓 70/40 mmHg、全身冒冷汗、一直喊胸口悶痛、監視器呈現 心電圖如下。此時應予何種電氣治療？",
+      "options": {
+        "A": "雙向波同步電擊 100 焦耳",
+        "B": "雙向波非同步電擊 100焦耳",
+        "C": "單向波同步電擊 200焦耳",
+        "D": "單向波非同步電擊 200焦耳"
+      },
+      "answer": "A",
+      "is_multi": false,
+      "has_image": true,
+      "image": "data/images/105_neike_q23_1.jpg"
+    },
+    {
+      "num": 24,
+      "stem": "氣胸 ( pneumothorax ) 的理學檢查發現不包括下列何者？",
+      "options": {
+        "A": "呼吸音會減弱",
+        "B": "叩診共鳴音 ( resonance ) 增強",
+        "C": "語聲震顫 ( vocal fremitus ) 增強",
+        "D": "呼吸頻率增快或呼吸困難 ( dyspnea )"
+      },
+      "answer": "C",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 25,
+      "stem": "病人的動脈血氣體分析顯示 pH : 7.62，PaCO : 31 mmHg，HCO －: 28 mEq/L，為下列何種 2 3 情況？",
+      "options": {
+        "A": "代謝鹼血症，有部份呼吸代償",
+        "B": "呼吸鹼血症，合併代謝鹼血症",
+        "C": "呼吸鹼血症，有部份代謝代償",
+        "D": "呼吸鹼血症，無代謝代償"
+      },
+      "answer": "B",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 26,
+      "stem": "一位 45 歲女性半癱 ( paraparesis ) 數小時後被送來急診，理學檢查發現雙下肢肌力皆 為 3分、雙下肢深部肌腱反射減少、雙腳底 Babinski sign 陰性。下一步應該安排的檢查 為何？",
+      "options": {
+        "A": "腦部電腦斷層 ( brain CT )",
+        "B": "腦部磁振造影 ( brain MRI )",
+        "C": "下肢肌電圖 ( low limbs EMG )",
+        "D": "脊髓磁振造影 ( spinal MRI )"
+      },
+      "answer": "D",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 27,
+      "stem": "呼吸道阻塞病人之肺功能變化不包括下列何者？",
+      "options": {
+        "A": "FEV 降低",
+        "B": "FEV /FVC比例下降 1 1",
+        "C": "全肺量 ( TLC ) 維持正常或降低",
+        "D": "肺餘量 ( RV ) 增加"
+      },
+      "answer": "C",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 28,
+      "stem": "姿態性低血壓之定義，是指病人由臥姿轉為站姿的血行動力學變化為何？",
+      "options": {
+        "A": "收縮壓下降5 mmHg以上或每分鐘心律上升5次以上",
+        "B": "收縮壓下降10 mmHg以上或每分鐘心律上升10次以上",
+        "C": "收縮壓下降10 mmHg以上或每分鐘心律上升15次以上",
+        "D": "收縮壓下降15 mmHg以上或每分鐘心律上升20次以上"
+      },
+      "answer": "C",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 29,
+      "stem": "專科護理師幫一位腹痛的年輕女性進行如下圖的理學檢查。關於該檢查之敘述，下列何者 錯誤？",
+      "options": {
+        "A": "該項檢查為閉孔肌徵象",
+        "B": "若引發或加劇右下腹疼痛可稱為陽性反應",
+        "C": "陽性反應代表可能有髂腰肌附近的膿瘍",
+        "D": "即使是陰性反應仍不能排除盲腸炎"
+      },
+      "answer": "A",
+      "is_multi": false,
+      "has_image": true,
+      "image": "data/images/105_neike_q29_1.jpg"
+    },
+    {
+      "num": 30,
+      "stem": "當懷疑病人有L5、S1椎間盤神經根壓迫問題，執行下列何項檢查較為合適？",
+      "options": {
+        "A": "McMurray test",
+        "B": "FABER ( flexion, abduction, external, rotation ) test",
+        "C": "SLRT ( straight leg raising test )",
+        "D": "Thomas test"
+      },
+      "answer": "C",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 31,
+      "stem": "一位慢性腎臟病第四期的病人，目前服用 furosemide 40 mg qd，主訴長期胃口不佳， 吃很少，倦怠，肌肉抽搐等而至門診求治。實驗室檢查發現 calcium 7.1 mg/dL， albumin 2.9 g/dL，其心電圖較可能出現以下何項變化？",
+      "options": {
+        "A": "會造成心房纖維顫動 ( Af ) 及出現多發性的心室期外收縮 ( multifocal VPCs )",
+        "B": "ST segment上升振幅超過2小格並引發多發性的心房期外收縮 ( multifocal APCs )",
+        "C": "PR interval延長至0.24秒並造成心室上心搏過速",
+        "D": "QT prolongation並且引發心室心律不整"
+      },
+      "answer": "D",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 32,
+      "stem": "李同學 19 歲，至新兵中心接受入伍訓練，在進行體能操練後，突然感到身體不適，緊急 送到急診室後，診斷為橫紋肌溶解症 ( rhabdomyolysis )，實驗室檢查顯示其血清鉀離子 高達7.0 mg/dL，以下何項處置不適當？",
+      "options": {
+        "A": "限水800 mL/day",
+        "B": "予以靜脈注射NaHCO 1-2 amples ( 44-88 mEq ) 3",
+        "C": "予以靜脈注射calcium gluconate 5-30 mL",
+        "D": "予以mannitol以及鹼化尿液"
+      },
+      "answer": "A",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 33,
+      "stem": "下列何種藥物不建議用來治療心室上心搏過速 ( supraventricular tachycardia ) ？",
+      "options": {
+        "A": "digoxin",
+        "B": "amiodarone",
+        "C": "metoprolol",
+        "D": "verapamil"
+      },
+      "answer": "A",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 34,
+      "stem": "李女士 64歲， 因夜間睡眠時胸痛發作入院治療，運動心電圖檢查正常，卻又於夜間睡眠時 復發一次。此時應安排何種檢查以鑑別診斷？",
+      "options": {
+        "A": "胸部放射線X光檢查",
+        "B": "24小時心電圖監測",
+        "C": "運動核子醫學心肌灌流檢查",
+        "D": "心臟超音波檢查"
+      },
+      "answer": "B",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 35,
+      "stem": "王先生52歲，有輕度糖尿病，無其他不適。於例行年度體檢時，胸部電腦斷層 ( MSCT ) 檢查發現其心臟冠狀動脈有明顯鈣化，運動心電圖檢查無心肌缺氧現象，繼續於門診 追蹤。一年後，於運動時偶而出現胸前壓迫感，休息後緩解。此時優先建議之檢查為何？",
+      "options": {
+        "A": "運動心電圖檢查",
+        "B": "心臟超音波檢查",
+        "C": "心導管檢查",
+        "D": "胸部電腦斷層"
+      },
+      "answer": "A",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 36,
+      "stem": "周老先生 72 歲，有慢性阻塞性肺病及咳嗽病史。晚上 8 點被家人發現意識不清，臥倒 在床，隨即送急診。於急診室其血壓為72/46 mmHg，心跳每分鐘45次，呼吸每分鐘17次， 肺部聽診無囉音，12 導程心電圖出現竇性緩脈、II/III/aVF 出現 ST 段上升及右側束枝 完全阻斷 ( CRBBB )。下列何種檢查宜優先進行？",
+      "options": {
+        "A": "冠狀動脈電腦斷層檢查",
+        "B": "抽血測白血球及發炎指數",
+        "C": "胸部X光檢查",
+        "D": "右胸12導程心電圖"
+      },
+      "answer": "D",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 37,
+      "stem": "一位 73 歲男性有糖尿病及肺氣腫病史，於門診規則治療中。最近三個月於運動時偶有 胸悶、心悸、呼吸急促，休息後可改善。近一週來，散步後呼吸急促加重，回家時爬到 二樓就喘氣、心悸，無法再向上爬。因此被家人送到醫院急診，其症狀最符合紐約心臟學會 功能分級的哪一級心衰竭？",
+      "options": {
+        "A": "第一級",
+        "B": "第二級",
+        "C": "第三級",
+        "D": "第四級"
+      },
+      "answer": "C",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 38,
+      "stem": "謝老先生有心衰竭病史，因心悸住院，血壓為 120/70 mmHg，心跳每分鐘 132次，呼吸 每分鐘18次，血糖為275 mg/dL，血鈉為138 mmol/L，血鉀為3.4 mmol/L，心電圖出現 心房顫動 ( atrial fibrillation )，下列那種靜脈注射藥物宜優先使用？",
+      "options": {
+        "A": "amiodarone",
+        "B": "dopamine",
+        "C": "nitroglycerin",
+        "D": "adenosine"
+      },
+      "answer": "A",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 39,
+      "stem": "依據GOLD治療方針，中度慢性阻塞性肺病治療原則不包括下列何者？",
+      "options": {
+        "A": "一種或多種長效型支氣管擴張劑",
+        "B": "肺部復健",
+        "C": "口服類固醇治療",
+        "D": "如果經常性急性發作，考慮巨環類抗生素 ( macrolide )"
+      },
+      "answer": "C",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 40,
+      "stem": "有關小細胞肺癌之敘述，下列何者錯誤？",
+      "options": {
+        "A": "與吸菸及暴露於致癌物有關，生長迅速，是最惡性的肺癌",
+        "B": "好發於中央的呼吸道",
+        "C": "會經由淋巴及血流作早期轉移，造成大且灰白色的軟性腫塊",
+        "D": "主要以手術及放射治療"
+      },
+      "answer": "D",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 41,
+      "stem": "病危的病人因Pseudomonas aeruginosa引起之肺炎，優先選擇之抗生素不包括下列何者？",
+      "options": {
+        "A": "Cefepime®",
+        "B": "Piperacillin/tazobactam®",
+        "C": "Meropenem®",
+        "D": "Ampicillin/sulbactam®"
+      },
+      "answer": "D",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 42,
+      "stem": "王先生 72 歲，有糖尿病，此次因咳嗽、咳痰、發燒、呼吸急促，住院時胸部 X 光如圖 所示，其最可能之臨床診斷為何？",
+      "options": {
+        "A": "支氣管擴張症",
+        "B": "肺癌",
+        "C": "肺膿瘍",
+        "D": "肺氣腫"
+      },
+      "answer": "C",
+      "is_multi": false,
+      "has_image": true,
+      "image": "data/images/105_neike_q42_1.jpg"
+    },
+    {
+      "num": 43,
+      "stem": "李先生 75歲，因呼吸急促到急診，胸部 X光顯示左側肋膜有積液，下列肋膜液分析結果 何者不屬於滲出液 ( exudate ) 的特性？",
+      "options": {
+        "A": "Pleural fluid pH < 7.30",
+        "B": "Pleural fluid : serum protein ratio < 0.5",
+        "C": "Pleural fluid : serum LDH ratio > 0.6",
+        "D": "Pleural fluid LDH > 0.67 upper limit of normal for serum LDH"
+      },
+      "answer": "B",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 44,
+      "stem": "腸胃道出血病人之血行動力學變化，下列何者需立即快速給予輸液？",
+      "options": {
+        "A": "收縮壓小於90 mmHg或基礎心律大於每分鐘90次",
+        "B": "收縮壓小於100 mmHg或基礎心律大於每分鐘 100次",
+        "C": "收縮壓小於110 mmHg或基礎心律大於每分鐘 110次",
+        "D": "收縮壓小於120 mmHg或基礎心律大於每分鐘 120次"
+      },
+      "answer": "B",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 45,
+      "stem": "一位 48 歲女性患有糖尿病，因頻尿、左腹痛、發燒三天而至門診求治，身體檢查左腰肋 有觸碰疼痛，血壓 86/52 mmHg、心跳 102 次/分、CBC 的 WBC：17,000/uL、U/A 的 WBC > 100/HPF，下列處置何者不適當？",
+      "options": {
+        "A": "進行血液、尿液培養",
+        "B": "考慮進行腹部超音波",
+        "C": "安排住院，開始抗生素治療",
+        "D": "進行下泌尿道感染診斷"
+      },
+      "answer": "D",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 46,
+      "stem": "所謂Charcot’s triad是指？",
+      "options": {
+        "A": "右上腹痛、黃疸、嘔吐",
+        "B": "右上腹痛、發燒、黃疸",
+        "C": "休克、發燒、嘔吐",
+        "D": "白血球增高、休克、上腹痛"
+      },
+      "answer": "B",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 47,
+      "stem": "68歲男性因肺炎住院，在門診他因糖尿病服用Amaryl® 3 mg bid，Metformin® 850 mg bid， 胸部X光左側肺炎，其他無特別發現。抽血檢查空腹血糖 285 mg/dL，Cr 2.0 mg/dL， WBC 18600/uL，HbA 一個月前在門診為8.3%，下列何項處置最恰當？ 1C",
+      "options": {
+        "A": "加Lantus® 16 U hs",
+        "B": "加Pioglitazone®",
+        "C": "停用Metformin®及Amaryl®，用Lantus® 16 U hs及每餐前 RI",
+        "D": "停用Metformin®及Amaryl®，全部用RI sliding scale控制血糖"
+      },
+      "answer": "C",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 48,
+      "stem": "一位 29歲女性有 10年第 1型糖尿病病史，最近 1-2年 HbA 7～8%，眼底檢查正常， 1C 血壓135/85 mmHg，抽血HbA 7.8%、urine ACR ( albumin creatinine ratio ) 45 mg/g，下列 1C 處置何者最適當？",
+      "options": {
+        "A": "即刻給予angiotensin-converting enzyme inhibitors ( ACEI )",
+        "B": "即刻給予angiotensin receptor blockers ( ARBs )",
+        "C": "回診做尿液感染篩檢",
+        "D": "3月後再做urine ACR 檢查"
+      },
+      "answer": "D",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 49,
+      "stem": "有關於口服降糖藥物pioglitazone之副作用，不包括下列何者？",
+      "options": {
+        "A": "慢性腎臟衰竭",
+        "B": "骨折",
+        "C": "體重增加",
+        "D": "鬱血性心衰竭"
+      },
+      "answer": "A",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 50,
+      "stem": "羅先生 62歲，平日喜好喝酒，有膽結石的病史。今晚突然出現上腹部疼痛且輻射至背部， 同時出現噁心嘔吐，至急診求治。其血清解脂酶（lipase）與血清澱粉酶（amylase）濃度 大量升高。視診時發現肚臍周圍青紫色瘀血，此為何種徵象？",
+      "options": {
+        "A": "Cullen’s sign",
+        "B": "Rovsing’s sign",
+        "C": "Grey-Turner sign",
+        "D": "Obturator sign"
+      },
+      "answer": "A",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 51,
+      "stem": "承上題，羅先生最可能有下列何種問題 ？",
+      "options": {
+        "A": "膽囊炎",
+        "B": "膽管炎",
+        "C": "胰臟炎",
+        "D": "十二指腸炎"
+      },
+      "answer": "C",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 52,
+      "stem": "一位 70 歲男性因昏迷而被送至急診，血糖 30 mg/dL。回顧其用藥史，發現目前使用下列 四種藥物，何者最可能是造成他低血糖的藥物？",
+      "options": {
+        "A": "repaglinide ( Novonorm® )",
+        "B": "metformin ( Glucophage® )",
+        "C": "sitagliptin ( Januvia® )",
+        "D": "pioglitazone ( Actos® )"
+      },
+      "answer": "A",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 53,
+      "stem": "有關退伍軍人症 ( Legionellosis )，下列敘述何者不正確？",
+      "options": {
+        "A": "Legionella是嗜氧革蘭氏陰性桿菌，主要是 Legionella pneumophilia與人類感染有關",
+        "B": "傳染方式是飛沫傳染，通常經由吸入受汙染水源而致病，潛伏期為2至10天",
+        "C": "免疫力低下病人容易感染此菌，使用第三代頭孢子素 ( 如ceftriaxone ) 可有效治療",
+        "D": "醫院供水系統中發現該病菌時，可用二氧化氯 ( chlorine dioxide )或銅-銀離子交換 ( copper-silver ionization ) 進行消毒"
+      },
+      "answer": "C",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 54,
+      "stem": "李太太近日出現站立走路時右下肢疼痛，小腿肚與足底麻木感，經評估後發現蹠屈大腳 趾及足部無力，無法以腳尖走路、踝反射減低，是哪一條神經根受到壓迫？",
+      "options": {
+        "A": "L3",
+        "B": "L4",
+        "C": "L5",
+        "D": "S1"
+      },
+      "answer": "D",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 55,
+      "stem": "王先生 82 歲患有高血壓，昨天清晨起床後頭暈不適於浴室昏倒，15分鐘後自行起身休息， 今天中餐吃飽飯後，突然抱怨未吃中飯、頭痛、家中有蟑螂四處竄逃，說話出現語無倫次 及思緒不連貫現象，針對王先生的異常行為，以下評估何者正確？",
+      "options": {
+        "A": "懷疑為失智，意識混亂症狀在一天內上下起伏",
+        "B": "懷疑為譫妄，定向感通常受損，多見於時間方面",
+        "C": "懷疑為憂鬱，出現近期記憶喪失，但遠期記憶不受影響",
+        "D": "懷疑為失智，須進一步電腦斷層掃描以確診"
+      },
+      "answer": "B",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 56,
+      "stem": "有關急性缺血性中風 ( acute ischemic stroke ) rtPA靜脈輸注治療的敘述，以下何者正確？",
+      "options": {
+        "A": "靜脈滴注劑量為1.9 mg/Kg，最大劑量不超過 180 mg",
+        "B": "治療期間血壓高於160/110 mmHg則停止滴注",
+        "C": "治療期間神經功能狀態惡化仍須繼續滴注治療",
+        "D": "血糖低於50 mg/dL或者高於400 mg/dL不適合滴注"
+      },
+      "answer": "D",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 57,
+      "stem": "林先生 66 歲，近日常感眩暈、耳鳴，偶出現複視，至門診求治，經檢查發現意識、生命 徵象及聽力正常，眼球出現橫向性震顫，神經學檢查之迅速交替動作及指對指測試異常， 精細動作協調較差，綜合分析後推測可能為小腦功能障礙，較不需要下列何項診斷性檢查？",
+      "options": {
+        "A": "腦波圖 ( electroencephalogram, EEG )",
+        "B": "電子眼球震顫儀 ( electronystagmography, ENG )",
+        "C": "梅毒血清檢驗 ( venereal disease research laboratories, VDRL )",
+        "D": "核磁共振影像 ( magnetic resonance imaging, MRI )"
+      },
+      "answer": "A",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 58,
+      "stem": "王小姐兩天前發覺右臉麻痺不適，要求病人做皺眉、緊閉雙眼以抵抗阻力、吹口哨， 是評估哪一條腦神經功能？",
+      "options": {
+        "A": "動眼神經",
+        "B": "三叉神經",
+        "C": "顏面神經",
+        "D": "舌咽神經"
+      },
+      "answer": "C",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 59,
+      "stem": "項先生近一週來出現眨眼反射消失且咀嚼與顳肌收縮力變差，病人可能為下列何種腦神經 的異常反應？",
+      "options": {
+        "A": "視神經",
+        "B": "動眼神經",
+        "C": "三叉神經",
+        "D": "外旋神經"
+      },
+      "answer": "C",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 60,
+      "stem": "有關馬兜鈴酸腎病變 ( aristolochic acid nephropathy, ANN ) 之敘述，下列何者錯誤？",
+      "options": {
+        "A": "在尿液常規分析易伴隨著蛋白尿現象",
+        "B": "ANN患者會進展至多發性高度惡度性的 transitional cell carcinoma ( TCC )",
+        "C": "常見貧血，且貧血的程度比起相對應的腎衰竭的程度更加嚴重",
+        "D": "典型的病理變化為廣泛性的腎小管間質組織纖維化"
+      },
+      "answer": "A",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 61,
+      "stem": "陳先生因感冒住院，抽血發現血中鈉離子濃度為 120 mmol/L，進一步檢查尿液滲透壓 ( urine osmolality ) 大於 280 mOsm/L且尿液的鈉離子濃度 35 mmol/L。造成其低血鈉症 的最可能原因為何？",
+      "options": {
+        "A": "primary polydipsia",
+        "B": "nephrotic syndrome",
+        "C": "heart failure",
+        "D": "SIADH ( Syndrome of inappropriate antidiuretic hormone secretion )"
+      },
+      "answer": "D",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 62,
+      "stem": "關於 aminoglycoside 副作用之敘述，下列何者錯誤？",
+      "options": {
+        "A": "應保持良好水化以預防腎毒性",
+        "B": "一般治療劑量下不會引起耳毒性",
+        "C": "年紀大病人較易發生腎毒性",
+        "D": "停藥後須繼續監測聽力約3-4週"
+      },
+      "answer": "B",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 63,
+      "stem": "下圖有關腹痛與臟器相關位置，下列敘述何者正確？",
+      "options": {
+        "A": "甲區常是來自脾臟或十二指腸的疼痛",
+        "B": "乙和戊區常是來自膽道結石或腎結石的疼痛",
+        "C": "丙區常是來自大腸或直腸的疼痛",
+        "D": "丁區常是來自小腸或盲腸的疼痛"
+      },
+      "answer": "D",
+      "is_multi": false,
+      "has_image": true,
+      "image": "data/images/105_neike_q63_1.jpg"
+    },
+    {
+      "num": 64,
+      "stem": "有關慢性腎病病人之血壓控制，下列敘述何者最適當？",
+      "options": {
+        "A": "ACEI 或 ARB 類降壓藥仍為首選",
+        "B": "24小時尿蛋白 > 1g之病人，其血壓控制目標為 < 140/90 mmHg",
+        "C": "宜選用保鉀型利尿劑控制血壓",
+        "D": "有糖尿病與無糖尿病之慢性腎病病人血壓控制目標值相同"
+      },
+      "answer": "A",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 65,
+      "stem": "一位 76歲臥床多年的男性之呼吸型態如下圖。此為何種型態之呼吸？",
+      "options": {
+        "A": "Kussmaul breathing",
+        "B": "Cheyne-Stoke respiration",
+        "C": "Biot respiration",
+        "D": "Hyperventilation"
+      },
+      "answer": "B",
+      "is_multi": false,
+      "has_image": true,
+      "image": "data/images/105_neike_q65_1.jpg"
+    },
+    {
+      "num": 66,
+      "stem": "一位 68 歲女性病患接受十二指腸穿孔手術後送到加護病房，使用呼吸器支持，血壓為 90/40 mmHg，心跳每分鐘 120次，中心靜脈壓是2 mmHg，乳酸值為 8 mmol/L，血紅素 是13 g/dL，關於此病患的輸液治療，以下何者為是？",
+      "options": {
+        "A": "初始應至少給予每公斤 30 ml的晶體溶液 (crystalloids )",
+        "B": "建議使用大量膠質溶液 ( 如Hydroxylethyl starch ) 取代晶體溶液 ( 如Ringer acetate )",
+        "C": "積極輸血，可以提高存活率",
+        "D": "使用白蛋白 ( albumin ) 治療與晶體溶液治療之預後較好"
+      },
+      "answer": "A",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 67,
+      "stem": "一位 50 歲女性，近日因腹痛、噁心、嘔吐、發燒、白血球增加而入院，經診斷為 急性腹膜炎併發敗血性休克及腎衰竭，進入加護病房治療，以下關於休克的處置何者正確？",
+      "options": {
+        "A": "應積極利用輸液治療和升壓劑，維持平均動脈血壓在55 mmHg以上",
+        "B": "可以先用 norepinephrine當第一線的升壓劑( vasopressor )",
+        "C": "低劑量的 dopamine可以保護腎臟",
+        "D": "單獨使用 vasopressin當作升壓劑"
+      },
+      "answer": "B",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 68,
+      "stem": "一位病患突然昏倒，在急救過程中的EKG發現如下，下列敘述何者錯誤？",
+      "options": {
+        "A": "確認是否有電解質不平衡的問題",
+        "B": "可能與 cocaine，cisapride等會引起QT prolong的藥物有關",
+        "C": "可以給予 MgSO 治療 4",
+        "D": "立即給予心律不整藥物 amiodarone治療"
+      },
+      "answer": "D",
+      "is_multi": false,
+      "has_image": true,
+      "image": "data/images/105_neike_q68_1.jpg"
+    },
+    {
+      "num": 69,
+      "stem": "重症病患在脫離呼吸器時，醫師會給病患做一個淺快呼吸指標 ( rapid shallow breathing index, RSBI ) 來做為是否拔管的依據，下列敘述何者正確？",
+      "options": {
+        "A": "成人RSBI > 105 者，表示脫離呼吸器成功機率較高",
+        "B": "RSBI與每分鐘呼吸次數和潮氣量 ( tidal volume ) 有關",
+        "C": "通常是在使用 pressure controlled ventilation 時測量",
+        "D": "RSBI 對使用呼吸器超過 21 天之病患預測脫離呼吸器能力較好"
+      },
+      "answer": "B",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 70,
+      "stem": "一位 65 歲男性因肺炎住加護病房，肺炎情況好轉準備脫離呼吸器，下列何種脫離呼吸器 模式最不被建議？",
+      "options": {
+        "A": "給予較低的持續正壓氣道呼吸模式 ( low level continuous positive airway pressure, CPAP )",
+        "B": "間歇同步強制呼吸模式 ( synchronized intermittent mandatory ventilation, SIMV )",
+        "C": "T型管 ( T-piece )",
+        "D": "較低的壓力支持型呼吸模式 ( low level pressure support ventilation )"
+      },
+      "answer": "B",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 71,
+      "stem": "長期第 2 型糖尿病病人空腹血糖控制不佳時，下列何種胰島素製劑能夠補充基礎胰島素 之不足？",
+      "options": {
+        "A": "regular insulin",
+        "B": "insulin aspart",
+        "C": "insulin detemir",
+        "D": "insulin lispro"
+      },
+      "answer": "C",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 72,
+      "stem": "一位27歲女性因心悸、體重2個月減輕3公斤來診，身體檢查pulse rate 100/min，頸部 摸不到甲狀腺，抽血檢查free T4 > 4.0 ng/dL、hsTSH < 0.004 μU/mL，I-131 uptake減少， TSH receptor antibody (-)，Anti-Tpo (-)， ESR 正常， 下列哪一個診斷最有可能？",
+      "options": {
+        "A": "Hashimoto’s thyroiditis",
+        "B": "subacute thyroiditis",
+        "C": "Graves’ disease",
+        "D": "exogenous thyroxine"
+      },
+      "answer": "D",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 73,
+      "stem": "目前治療骨質疏鬆常用的雙磷酸鹽類藥物，曾經被報告過的藥物不良反應中不包括下列 何者？",
+      "options": {
+        "A": "胃食道逆流",
+        "B": "顎骨壞死",
+        "C": "椎骨骨折",
+        "D": "心房顫動"
+      },
+      "answer": "C",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 74,
+      "stem": "有關重症肌無力 ( Myasthenia Gravis ) 的臨床表現與症狀，下列敘述何者錯誤？",
+      "options": {
+        "A": "肌肉無力及疲累通常於早上起床時最明顯",
+        "B": "肌肉無力或者疲累時經過休息後可獲得改善",
+        "C": "女性與男性的發生率約為3 : 2",
+        "D": "複視 ( diplopia)及上眼瞼下垂 ( ptosis ) 是疾病初期常見症狀"
+      },
+      "answer": "A",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 75,
+      "stem": "依據2015年新版的美國心臟急救指引，關於復甦後的體溫管理，下列敘述何者為非？",
+      "options": {
+        "A": "病患恢復自發性血液循環後，若對口語命令不能做出有意義的反應，應進行目標體溫 管理 ( targeted temperature management, TTM )",
+        "B": "TTM意指維持病患體溫介於攝氏28C與32C之間，至少24小時",
+        "C": "證據顯示TTM對於神經學預後有幫助",
+        "D": "在TTM後，還是應積極避免病患發燒"
+      },
+      "answer": "B",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 76,
+      "stem": "關於重症病患血糖的控制，以下何者不正確？",
+      "options": {
+        "A": "重症病患的血糖值應控制在110 mg/dL以內",
+        "B": "重症病患血糖值變異度會影響病患預後",
+        "C": "重症引發之高血糖與病患是否有糖尿病並無絕對關聯性",
+        "D": "使用insulin pump治療高血糖症，建議初期應該每1-2小時監測血糖一次"
+      },
+      "answer": "A",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 77,
+      "stem": "下列為病人心肌梗塞前後不同時期所做的心電圖，依照梗塞發生時間先後順序排列為何？ ① ② ③ ④ ⑤",
+      "options": {
+        "A": "⑤→②→①→④→③",
+        "B": "④→③→⑤→②→①",
+        "C": "③→⑤→②→①→④",
+        "D": "②→①→④→③→⑤"
+      },
+      "answer": "C",
+      "is_multi": false,
+      "has_image": true,
+      "image": [
+        "data/images/105_neike_q77_1.jpg",
+        "data/images/105_neike_q77_2.jpg",
+        "data/images/105_neike_q77_3.jpg",
+        "data/images/105_neike_q77_4.jpg",
+        "data/images/105_neike_q77_5.jpg"
+      ]
+    },
+    {
+      "num": 78,
+      "stem": "敗血性休克的病患容易有器官衰竭的現象，新版的敗血症定義建議用 SOFA score ( sequential organ failure assessment score ) 來評估器官失調的數量以及敗血症的嚴重度， 下列何種參數不屬於SOFA score？",
+      "options": {
+        "A": "Glasgow coma score",
+        "B": "prothrombin time/partial thrombplastin time",
+        "C": "bilirubin",
+        "D": "mean arterial pressure"
+      },
+      "answer": "B",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 79,
+      "stem": "中風後之高血壓病人建議優先使用下列何種藥物組合？",
+      "options": {
+        "A": "鈣離子阻滯劑及乙型交感神經 ( beta-adrenergic ) 阻斷劑",
+        "B": "鈣離子阻滯劑及血管緊張素轉換酶抑制劑 ( ACEI )",
+        "C": "Thiazide利尿劑及乙型交感神經 ( beta-adrenergic ) 阻斷劑",
+        "D": "Thiazide利尿劑及血管緊張素轉換酶抑制劑 ( ACEI )"
+      },
+      "answer": "D",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 80,
+      "stem": "一位 54 歲男性，罹患糖尿病 10 年。血中 Cr : 1.1 mg/dL，尿中 albumin : 30 mg/dL 及 Cr : 75 mg/dL，目前屬於哪個階段的糖尿病腎病變？",
+      "options": {
+        "A": "正常",
+        "B": "微量白蛋白尿",
+        "C": "巨量白蛋白尿",
+        "D": "慢性腎衰竭 【以下空白】"
+      },
+      "answer": "C",
+      "is_multi": false,
+      "has_image": false
+    }
+  ]
+}

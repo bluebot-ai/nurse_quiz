@@ -48,7 +48,7 @@
     },
     {
       "num": 4,
-      "stem": "導致低血鈣(hypocalcemia)的原因，下列何者最不可能？ 試題公告",
+      "stem": "導致低血鈣(hypocalcemia)的原因，下列何者最不可能？",
       "options": {
         "A": "副甲狀腺機能低下",
         "B": "低血鎂症",
@@ -63,8 +63,8 @@
       "num": 5,
       "stem": "陳先生因接受冠狀動脈繞動手術，正在服用plavix，他不斷地抱怨傷口疼痛，讓他整夜 都睡不好，下列哪一種藥物會建議優先投予來改善疼痛問題？",
       "options": {
-        "A": "celecoxi僅b(Celebrex) 供參",
-        "B": "keoro考lac(Keto)",
+        "A": "celecoxib(Celebrex)",
+        "B": "keorolac(Keto)",
         "C": "ibuprofen(Motrin)",
         "D": "acetaminophen(Scanol)"
       },
@@ -152,7 +152,7 @@
     },
     {
       "num": 12,
-      "stem": "針對表皮生長因子接受體(EGFR)抑制劑之癌症用藥，哪一類副作用較傳統化學治療藥 物為多？ 試題公告",
+      "stem": "針對表皮生長因子接受體(EGFR)抑制劑之癌症用藥，哪一類副作用較傳統化學治療藥 物為多？",
       "options": {
         "A": "類青春痘皮膚反應",
         "B": "免疫反應水瀉",
@@ -170,7 +170,7 @@
         "A": "acetazolamide",
         "B": "furosemide",
         "C": "spironolactone",
-        "D": "thiazides 僅供參考"
+        "D": "thiazides"
       },
       "answer": "C",
       "is_multi": false,
@@ -257,7 +257,7 @@
     },
     {
       "num": 20,
-      "stem": "根據2016年敗試血性休克治療題指引，補充足公夠液體時，仍告需以升壓劑維 持平均血壓(mean arterial pressure)達多少以上？",
+      "stem": "根據2016年敗血性休克治療指引，補充足夠液體時，仍需以升壓劑維持平均血壓(mean arterial pressure)達多少以上？",
       "options": {
         "A": "120 mmHg",
         "B": "105 mmHg",
@@ -272,7 +272,7 @@
       "num": 21,
       "stem": "下列何者最不可能發生奇異脈(pulsus paradoxus)？",
       "options": {
-        "A": "pericardial tamponade 僅供參考",
+        "A": "pericardial tamponade",
         "B": "severe left ventricular systolic dysfunction",
         "C": "severe obstructive lung disease",
         "D": "tension pneumothorax"
@@ -379,7 +379,7 @@
         "A": "下壁",
         "B": "前壁",
         "C": "後壁",
-        "D": "側壁 試題公告"
+        "D": "側壁"
       },
       "answer": "A",
       "is_multi": false,
@@ -392,7 +392,7 @@
         "A": "經食道超音波(transesophageal echocardiography, TEE)",
         "B": "心臟超音波(echocardiography)",
         "C": "胸前心臟超音波（transthoracic echocardiography, TTE）",
-        "D": "心肌切片（endomyocardial biopsy, EMB） 僅供參考"
+        "D": "心肌切片（endomyocardial biopsy, EMB）"
       },
       "answer": "D",
       "is_multi": false,
@@ -466,9 +466,9 @@
     },
     {
       "num": 36,
-      "stem": "75歲女性，主訴最近1個月頭暈及心悸發作3次並無昏厥。門診安排24小時心電圖結果 如下，下列後續處置何項最為適當？ 試題公告",
+      "stem": "75歲女性，主訴最近1個月頭暈及心悸發作3次並無昏厥。門診安排24小時心電圖結果 如下，下列後續處置何項最為適當？",
       "options": {
-        "A": "先至急診置放暫時性心臟節律器(temporary pacemaker, TPM) 僅供參考",
+        "A": "先至急診置放暫時性心臟節律器(temporary pacemaker, TPM)",
         "B": "立即住院觀察，並安排攜帶式心電圖監測",
         "C": "立即住院，置放永久性心臟節律器(permanent pacemaker, PPM)",
         "D": "門診安排運動心電圖檢查，進一步評估病因"
@@ -547,7 +547,7 @@
       "num": 42,
       "stem": "32歲女性，罹患氣喘且初次懷孕，擔心氣喘用藥對胎兒的影響，下列何項建議最為適當？",
       "options": {
-        "A": "停用budesonide(吸入性類固醇) 試題公告",
+        "A": "停用budesonide(吸入性類固醇)",
         "B": "停用salbutamol(β2 agonist吸入劑)",
         "C": "停用singulair(a leukotriene receptor antagonist口服)",
         "D": "不必停用藥物，以免急性氣喘惡化造成胎兒的傷害"
@@ -558,7 +558,7 @@
     },
     {
       "num": 43,
-      "stem": "根據肺癌TNM分期，對非小細胞肺癌的分期，若一位非小細胞肺癌的病人，發現有肺 臟腫瘤的同一僅側鎖骨上淋巴供腺癌細胞轉移參，則TNM期別考為何？",
+      "stem": "根據肺癌TNM分期，對非小細胞肺癌的分期，若一位非小細胞肺癌的病人，發現有肺 臟腫瘤的同一側鎖骨上淋巴腺癌細胞轉移，則TNM期別為何？",
       "options": {
         "A": "IIA",
         "B": "IIB",
@@ -628,7 +628,7 @@
         "A": "lymphocytes=90%",
         "B": "eosinophil=20%",
         "C": "protein=3.5gm/dL",
-        "D": "ADA(adenosine deaminase)=30 units/L 試題公告"
+        "D": "ADA(adenosine deaminase)=30 units/L"
       },
       "answer": "A",
       "is_multi": false,
@@ -639,7 +639,7 @@
       "stem": "38歲女性，因手抖及心跳快(110次/分鐘)而就診，無突眼症，理學檢查甲狀腺腫大但無 結節，TSH為 0.05 μU/Ml(正常0.1～2.0 μU/mL)、free T 為1.2 ng/dL(正常0.8～1.8 ng/dL)。 4 後續處置何者最為適當？",
       "options": {
         "A": "測血清 T 3",
-        "B": "測血清 TSH 受體抗體(anti-TSHR antibody) 僅供參考",
+        "B": "測血清 TSH 受體抗體(anti-TSHR antibody)",
         "C": "6-12週後再追蹤",
         "D": "安排甲狀腺超音波檢查"
       },
@@ -716,7 +716,7 @@
       "num": 55,
       "stem": "58歲男性，因腹痛入院，血壓 86／47 mmHg，體溫37.5℃，脈搏120 次/分，呼吸速率 22 次/分，其肺動脈導管檢驗結果為：CO 6.6 L/min(正常值4.8-7.2L/min)、CI 3.2 L/min/m2(正 常值2.5-4.0 L/min/m2)、SVR 750 dynes*sec/cm5(正常值800-1200 dynes*sec/cm5)、CVP 10 mmHg，根據以上數據較可能為何種類型休克？",
       "options": {
-        "A": "過敏性休克 試題公告",
+        "A": "過敏性休克",
         "B": "心因性休克",
         "C": "低血容積休克",
         "D": "梗塞性休克"
@@ -727,7 +727,7 @@
     },
     {
       "num": 56,
-      "stem": "關於急性腎損傷 (acute kidney injury)，會出現血中肌酸激酯酶(creatine kinase， CK)上升、小僅便潛血反應供陽性，但顯微參鏡檢卻沒有紅考血球，下列何者最有可能?",
+      "stem": "關於急性腎損傷 (acute kidney injury)，會出現血中肌酸激酯酶(creatine kinase， CK)上升、小便潛血反應陽性，但顯微鏡檢卻沒有紅血球，下列何者最有可能?",
       "options": {
         "A": "跑馬拉松之後肌肉痠痛、可樂色尿、少尿",
         "B": "發燒、低血壓",
@@ -818,7 +818,7 @@
     },
     {
       "num": 63,
-      "stem": "使用抗甲狀腺藥物，最嚴重的副作用為: 試題公告",
+      "stem": "使用抗甲狀腺藥物，最嚴重的副作用為:",
       "options": {
         "A": "皮疹及搔癢",
         "B": "關節疼痛",
@@ -835,8 +835,8 @@
       "options": {
         "A": "乳酸中毒",
         "B": "維他命 B 缺乏 12",
-        "C": "腸胃道不僅適 供參",
-        "D": "急性胰考臟炎"
+        "C": "腸胃道不適",
+        "D": "急性胰臟炎"
       },
       "answer": "D",
       "is_multi": false,
@@ -922,7 +922,7 @@
     },
     {
       "num": 71,
-      "stem": "50歲男性，於10天前至宜蘭山區旅遊，3天前開始出現發燒、頭痛、皮膚疹，並於大腿 內側發現有一焦痂病灶，下列敘述何者最不可能？ 試題公告",
+      "stem": "50歲男性，於10天前至宜蘭山區旅遊，3天前開始出現發燒、頭痛、皮膚疹，並於大腿 內側發現有一焦痂病灶，下列敘述何者最不可能？",
       "options": {
         "A": "此為恙蟲病(scrub typhus)，病原體為立克次體(Orientia tsutsugamushi)",
         "B": "疾病的早期，會出現相對性緩脈(relative bradycardia)",
@@ -935,7 +935,7 @@
     },
     {
       "num": 72,
-      "stem": "下列抗微生素僅製劑與副作用供之組合，何者參最不適當？ 考",
+      "stem": "下列抗微生素製劑與副作用之組合，何者最不適當？",
       "options": {
         "A": "daptomycin–myopathy(肌肉病變)",
         "B": "chloramphenicol–aplastic anemia(再生不良性貧血)",
@@ -1026,7 +1026,7 @@
     },
     {
       "num": 79,
-      "stem": "關於ICU病人譫妄(delirium)之敘述，下列何者較為適當？ 試題公告",
+      "stem": "關於ICU病人譫妄(delirium)之敘述，下列何者較為適當？",
       "options": {
         "A": "譫妄與ICU病人死亡率無關",
         "B": "alcoholism是造成譫妄的危險因子之一",
@@ -1039,7 +1039,7 @@
     },
     {
       "num": 80,
-      "stem": "69歲女性，診僅斷為敗血性休供克，目前心跳參115次/分鐘，考血壓60/45 mmHg，關於血行動 力的支持療法，下列何者最不適當？",
+      "stem": "69歲女性，診斷為敗血性休克，目前心跳115次/分鐘，血壓60/45 mmHg，關於血行動 力的支持療法，下列何者最不適當？",
       "options": {
         "A": "使用晶體溶液(crystalloid)當作初始灌注的輸液",
         "B": "可以單獨使用vasopressin來增加血壓",

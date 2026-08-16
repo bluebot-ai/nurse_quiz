@@ -33,8 +33,10 @@ _Q_RE   = re.compile(r'^\D{0,2}(\d{1,2})[\.．、]')
 
 MIN_AREA = 5000   # px²; below this is decorative
 LETTERS  = ['A', 'B', 'C', 'D', 'E', 'F']
+TILE_GAP = 3      # pt; images closer than this are tiles of one figure
 
 EXAMS = [
+    # (roc_year, id_suffix, subject_cn[, file_prefix, exam_id]) — see parse_pdfs.EXAMS
     (114, "neike",   "內科"),
     (114, "tonglun", "通論"),
     (113, "neike",   "內科"),
@@ -47,6 +49,16 @@ EXAMS = [
     (110, "tonglun", "通論"),
     (109, "neike",   "內科"),
     (109, "tonglun", "通論"),
+    (108, "neike",   "內科", "108年度第二次", "108_2_neike"),
+    (108, "tonglun", "通論", "108年度第二次", "108_2_tonglun"),
+    (108, "neike",   "內科", "108年度第一次", "108_1_neike"),
+    (108, "tonglun", "通論", "108年度第一次", "108_1_tonglun"),
+    (107, "neike",   "內科"),
+    (107, "tonglun", "通論"),
+    (106, "neike",   "內科"),
+    (106, "tonglun", "通論"),
+    (105, "neike",   "內科"),
+    (105, "tonglun", "通論"),
 ]
 
 
@@ -80,7 +92,7 @@ def collect_placements(doc):
             digest = hashlib.md5(info["image"]).hexdigest()
             for rect in page.get_image_rects(xref):
                 digest_pages[digest].add(pno)
-                raw.append((pno, rect.y0, rect.x0, xref, digest, info))
+                raw.append((pno, rect.y0, rect.x0, rect, xref, digest, info))
     bg = {d for d, pgs in digest_pages.items() if len(pgs) >= max(2, n_pages // 2)}
 
     events = []
@@ -104,12 +116,13 @@ def collect_placements(doc):
                 last_q = num
                 events.append({"page": pno, "y": y0, "kind": "label", "q": num})
 
-    for pno, y0, x0, xref, digest, info in raw:
+    for pno, y0, x0, rect, xref, digest, info in raw:
         if pno == 0 or digest in bg:
             continue
         if info["width"] * info["height"] < MIN_AREA:
             continue
         events.append({"page": pno, "y": y0, "x": x0, "kind": "image",
+                       "rect": rect,
                        "img": {"bytes": info["image"], "ext": info["ext"],
                                "w": info["width"], "h": info["height"]}})
 
@@ -118,20 +131,93 @@ def collect_placements(doc):
 
 
 def assign(events):
-    """Walk reading order; attach each image to the current question."""
+    """Walk reading order; attach each image event to the current question."""
     owned = defaultdict(list)
     cur = None
     for e in events:
         if e["kind"] == "label":
             cur = e["q"]
         elif cur is not None:
-            owned[cur].append(e["img"])
+            owned[cur].append(e)
     return owned
 
 
-def process_exam(roc_year, id_suffix, subject_cn, apply):
-    exam_id   = f"{roc_year}_{id_suffix}"
-    pdf_path  = os.path.join(QUIZ, f"{roc_year}年度_專科護理師_{subject_cn}_試題.pdf")
+def stitch_tiles(doc, items):
+    """Merge images that are tiles of a single figure.
+
+    Some PDFs slice one figure (a long ECG strip, an anatomical diagram) into a
+    grid of touching images.  Extracting those separately shows the reader a
+    stack of fragments, so any group of images whose boxes touch (gap < TILE_GAP)
+    is pasted back together on one canvas, positioned by their page rectangles.
+    Figures that merely sit near each other — 105 內科 Q77's five separate ECGs
+    — keep their real gaps and stay separate.
+
+    The tiles are composited from the embedded image bytes rather than
+    re-rendered off the page, so the page's 「僅供參考」浮水印 stays out of the
+    picture.
+    """
+    groups = []          # [(page, fitz.Rect, [item, ...]), ...]
+    for it in items:
+        rect = it.get("rect")
+        if rect is None:
+            groups.append((it["page"], None, [it]))
+            continue
+        grown = fitz.Rect(rect) + (-TILE_GAP, -TILE_GAP, TILE_GAP, TILE_GAP)
+        for i, (pno, box, members) in enumerate(groups):
+            if box is not None and pno == it["page"] and grown.intersects(box):
+                groups[i] = (pno, box | rect, members + [it])
+                break
+        else:
+            groups.append((it["page"], fitz.Rect(rect), [it]))
+
+    # a tile can bridge two groups that were started apart, so keep merging
+    merged = True
+    while merged:
+        merged = False
+        for i in range(len(groups)):
+            for j in range(i + 1, len(groups)):
+                (p1, b1, m1), (p2, b2, m2) = groups[i], groups[j]
+                if b1 is None or b2 is None or p1 != p2:
+                    continue
+                if (b1 + (-TILE_GAP, -TILE_GAP, TILE_GAP, TILE_GAP)).intersects(b2):
+                    groups[i] = (p1, b1 | b2, m1 + m2)
+                    groups.pop(j)
+                    merged = True
+                    break
+            if merged:
+                break
+
+    out = []
+    for pno, box, members in groups:
+        if len(members) == 1:
+            out.append(members[0]["img"])
+            continue
+        # pixels per point of the sharpest tile, so we don't lose resolution
+        scale = max(m["img"]["w"] / max(fitz.Rect(m["rect"]).width, 1) for m in members)
+        canvas = Image.new("RGB",
+                           (max(1, round(box.width * scale)),
+                            max(1, round(box.height * scale))), "white")
+        for m in members:
+            r = fitz.Rect(m["rect"])
+            tile = Image.open(io.BytesIO(m["img"]["bytes"]))
+            if tile.mode not in ("RGB", "L"):
+                tile = tile.convert("RGB")
+            size = (max(1, round(r.width * scale)), max(1, round(r.height * scale)))
+            canvas.paste(tile.resize(size, Image.LANCZOS),
+                         (round((r.x0 - box.x0) * scale),
+                          round((r.y0 - box.y0) * scale)))
+        buf = io.BytesIO()
+        canvas.save(buf, "PNG")
+        out.append({"bytes": buf.getvalue(), "ext": "png",
+                    "w": canvas.width, "h": canvas.height, "tiles": len(members)})
+    return out
+
+
+def process_exam(roc_year, id_suffix, subject_cn, file_prefix=None, exam_id=None,
+                 apply=False):
+    exam_id   = exam_id or f"{roc_year}_{id_suffix}"
+    prefix    = file_prefix or f"{roc_year}年度"
+    pdf_path  = os.path.join(QUIZ, f"{prefix}_專科護理師_{subject_cn}_試題.pdf")
     json_file = os.path.join(DATA, f"{exam_id}.json")
     if not os.path.exists(pdf_path):
         print(f"{exam_id}: PDF missing, skip"); return
@@ -149,10 +235,14 @@ def process_exam(roc_year, id_suffix, subject_cn, apply):
         q["has_image"] = False
         q.pop("option_images", None)
 
-    for qnum, imgs in sorted(owned.items()):
+    for qnum, items in sorted(owned.items()):
         q = qmap.get(qnum)
         if q is None:
             continue
+        # A/B/C/D pictures sit side by side and must stay four separate images;
+        # only 題幹 figures may be tiles of one picture.
+        imgs = ([it["img"] for it in items] if options_are_images(q)
+                else stitch_tiles(doc, items))
         if options_are_images(q):                  # the images ARE the options
             opt = {}
             for letter, im in zip(LETTERS, imgs):
@@ -196,7 +286,11 @@ def process_exam(roc_year, id_suffix, subject_cn, apply):
 
 def main():
     apply = "--apply" in sys.argv
+    only  = {a for a in sys.argv[1:] if not a.startswith("--")}
     for args in EXAMS:
+        exam_id = args[4] if len(args) > 4 else f"{args[0]}_{args[1]}"
+        if only and exam_id not in only:
+            continue
         process_exam(*args, apply=apply)
     print("\n" + ("WROTE files." if apply else "DRY RUN (use --apply to write)."))
 

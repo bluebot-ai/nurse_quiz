@@ -1,0 +1,1055 @@
+{
+  "id": "105_tonglun",
+  "title": "105年度 通論",
+  "subtitle": "專科護理通論",
+  "year": 105,
+  "ad_year": 2016,
+  "subject": "通論",
+  "total": 80,
+  "questions": [
+    {
+      "num": 1,
+      "stem": "眼晴理學檢查記錄為PERRLA，此結果中的 A代表下列哪一項意義？",
+      "options": {
+        "A": "雙眼角膜光點一致",
+        "B": "視調節雙眼向中間會聚",
+        "C": "視野與檢查者相同",
+        "D": "雙眼呈共軛性移動"
+      },
+      "answer": "B",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 2,
+      "stem": "根據2002年國際尿失禁協會 ( International Continence Society, ICS ) 之定義，膀胱過動症 ( overactive bladder, OAB ) 最主要之症狀為何？",
+      "options": {
+        "A": "low abdominal pain",
+        "B": "urgency",
+        "C": "hematuria",
+        "D": "pyuria"
+      },
+      "answer": "B",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 3,
+      "stem": "陳小姐 35 歲，主訴昨晚餐後 2 小時，右上腹開始出現劇烈疼痛，且有時會輻射到背部， 並伴隨噁心、嘔吐的症狀，無發燒，脈搏 93次/分，呼吸 18 次/分，血壓 130/70 mmHg， 鞏膜沒有黃疸且心血管檢查為正常，腹部檢查腸音、蠕動正常，但有明顯的右上象限腹部 壓痛；要求陳小姐深呼吸時，右上腹壓痛會明顯增加，最有可能之診斷為何？",
+      "options": {
+        "A": "acute cholecystitis",
+        "B": "acute pancreatitis",
+        "C": "acute gastroenteritis",
+        "D": "acute appendicitis"
+      },
+      "answer": "A",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 4,
+      "stem": "王先生 30 歲，主訴昨晚突發性的右側背部劇痛，此疼痛會延伸到右側腹股溝和睾丸 的位置，同時合併有血尿、頻尿、排尿疼痛等症狀。此時王先生的體溫 36.8C，脈搏 96次/分，呼吸20次/分，血壓140/90 mmHg，除了輕敲右側肋脊角 ( costovertebral angle ) 會有疼痛感外，其他檢查都正常；王先生最可能的診斷為何？",
+      "options": {
+        "A": "renal colic",
+        "B": "acute pyelonephritis",
+        "C": "acute cystitis",
+        "D": "atypical appendicitis"
+      },
+      "answer": "A",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 5,
+      "stem": "余先生32歲，無結腸疾病之病史，發燒已有四天，左下腹部疼痛和腹瀉，最可能的診斷為何？",
+      "options": {
+        "A": "克隆氏病 ( Crohn’s disease )",
+        "B": "缺血性大腸炎 ( ischemic colitis )",
+        "C": "潰瘍性大腸炎 ( ulcerative colitis )",
+        "D": "憩室炎 ( diverticulitis )"
+      },
+      "answer": "D",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 6,
+      "stem": "有關淋巴循環系統的檢查，下列敘述何者最適當？",
+      "options": {
+        "A": "淋巴循環的最終引流是由胸管 ( thoracic duct ) 匯入右鎖骨下靜脈",
+        "B": "對5歲的小孩觸診時，發現其腹股溝淋巴結腫大，是正常現象",
+        "C": "觸診時，如發現鎖骨上淋巴結腫大，起因於惡性腫瘤的可能性很大",
+        "D": "前頸部淋巴結腫大比後頸部淋巴結腫大，更可能是由惡性腫瘤所導致的"
+      },
+      "answer": "C",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 7,
+      "stem": "下列何者與傳導性聽力喪失有關？ ① 長期暴露在噪音中 ② 最近有中耳感染 ③ Rinne test AC > BC ④ Rinne test BC > AC ( AC：air conduction；BC：bone conduction )",
+      "options": {
+        "A": "① ③",
+        "B": "① ④",
+        "C": "② ③",
+        "D": "② ④"
+      },
+      "answer": "D",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 8,
+      "stem": "下列何者不是乳癌治療的主要考量因素？",
+      "options": {
+        "A": "腫瘤大小",
+        "B": "癌細胞種類",
+        "C": "動情激素接受體 ( ER ) 及黃體激素接受體 ( PR ) 是否為陽性",
+        "D": "P53 基因表現"
+      },
+      "answer": "D",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 9,
+      "stem": "一位 54 歲高血壓男性，在聚餐飲酒後，呈現右側周邊型顏面神經麻痺及左側肢體 偏癱，請問其腦中風最可能的病灶位置為何？",
+      "options": {
+        "A": "橋腦",
+        "B": "右大腦皮質",
+        "C": "中腦",
+        "D": "小腦"
+      },
+      "answer": "A",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 10,
+      "stem": "左胸口之PMI ( point of maximal impulse ) 大於2.5公分時，最可能是下列何種心臟病變？",
+      "options": {
+        "A": "左心室肥大",
+        "B": "右心室肥大",
+        "C": "左心房擴大",
+        "D": "右心房擴大"
+      },
+      "answer": "A",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 11,
+      "stem": "有關肝癌檢查的描述，下列何者正確？",
+      "options": {
+        "A": "病毒性肝炎是國人常見發生肝癌的原因，建議A、B、C 型肝炎都列入篩檢",
+        "B": "腹部超音波是最普遍也最方便的篩檢工具",
+        "C": "核磁共振對於小於1 公分的腫瘤有很好的篩檢效果",
+        "D": "肝動脈血管攝影是最佳之確診檢查"
+      },
+      "answer": "B",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 12,
+      "stem": "下列何者為評估舌咽神經功能的檢查？",
+      "options": {
+        "A": "視診眼球震顫",
+        "B": "評估吞嚥能力",
+        "C": "觸診雙側的咀嚼肌",
+        "D": "請個案皺眉、微笑"
+      },
+      "answer": "B",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 13,
+      "stem": "腦中風病人無法理解說話的內容、有同側偏盲、半側麻木且動作無法協調，下列敘述何者 最適當？",
+      "options": {
+        "A": "其症狀表現與後大腦動脈受損有關",
+        "B": "語言表現與Broca’s 區受損有關",
+        "C": "檢查動作協調時應做Romberg test",
+        "D": "同側偏盲與第三對腦神經受損有關"
+      },
+      "answer": "A",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 14,
+      "stem": "王小姐 19 歲，主訴一個月前開始喉嚨嚴重疼痛，一週前開始有發燒、膝蓋疼痛、 手臂紅疹及紅斑，理學檢查發現兩側肺底部呈爆裂音( crackles )、第三心音 ( S3 ) 及 心尖部泛收縮性雜音 ( pansystolic )，以下何者為最可能之診斷？",
+      "options": {
+        "A": "acute rheumatic fever",
+        "B": "scarlet fever",
+        "C": "acute bacterial endocarditis",
+        "D": "subacute bacterial endocarditis"
+      },
+      "answer": "A",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 15,
+      "stem": "陳先生 23 歲，過去健康情況良好，無服藥及藥物過敏史，主訴近兩週倦怠、流鼻水、 咳嗽、少量痰，體溫 37.8C 、脈搏 96 次/分、呼吸 18 次/分、左下肺呼吸音呈 爆裂音( crackles )，胸部X光呈現左下肺葉間質性浸潤，最可能的診斷為何？",
+      "options": {
+        "A": "Legionnaire’s disease",
+        "B": "mycoplasma pneumoniae",
+        "C": "bronchiectasis",
+        "D": "streptococcus pneumoniae"
+      },
+      "answer": "B",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 16,
+      "stem": "徐先生 74 歲，過去病史有心律不整併心衰竭、慢性腎臟病第 3 期，已規則服藥控制五年， 此次因解尿不順入院治療。患者本身意識清楚且有長期頭暈現象，目前體溫 36.5C， 脈搏 80次/分，呼吸 20次/分，血壓 161/88 mmHg；實驗室數據顯示 BUN：19 mg/dL、 Creatinine：1.43 mg / dL、GFR：48 mL / min / 1.73m2、hsCRP：0.06 mg / dL、 SGPT ( ALT ) ：15 IU/L、SGOT ( AST ) ：28 IU/L、Na+ ：112 mEq/L、K+：3.9 mEq/L， 下列處置何者不適當？",
+      "options": {
+        "A": "抽血確認血漿滲透壓及檢測Fractional Excretion of Sodium ( FENa )",
+        "B": "給予3% NaCl滴注，儘速將血鈉補至135 ~ 145 mEq/L",
+        "C": "核對用藥史，確認有無藥物引起低血鈉之交互作用",
+        "D": "抽血檢驗甲狀腺激素及確認有無腎上腺功能不足"
+      },
+      "answer": "B",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 17,
+      "stem": "病人平躺時將髖和膝關節彎曲，再慢慢將小腿往上抬起並拉直膝蓋呈伸展狀態，觀察膝蓋 後側疼痛和阻力增加，此為何項檢查？",
+      "options": {
+        "A": "Psoas sign",
+        "B": "Brudzinski’s sign",
+        "C": "Obturator test",
+        "D": "Kernig’s sign"
+      },
+      "answer": "D",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 18,
+      "stem": "病人出現眼瞼下垂懷疑有貝爾氏麻痺 (Bell’s palsy)時，應進行下列哪一對腦神經檢查 最為適當？",
+      "options": {
+        "A": "第五對腦神經",
+        "B": "第六對腦神經",
+        "C": "第七對腦神經",
+        "D": "第八對腦神經"
+      },
+      "answer": "C",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 19,
+      "stem": "關於心音聽診，下列何者不是居於S1到S2之間心收縮期的心雜音？",
+      "options": {
+        "A": "三尖瓣閉鎖不全",
+        "B": "肺動脈瓣狹窄",
+        "C": "心室中膈缺損",
+        "D": "主動脈瓣閉鎖不全"
+      },
+      "answer": "D",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 20,
+      "stem": "下列心電圖為何種心律不整？",
+      "options": {
+        "A": "病竇症候群",
+        "B": "竇性心律不整",
+        "C": "3度房室傳導阻滯",
+        "D": "心房纖維顫動"
+      },
+      "answer": "C",
+      "is_multi": false,
+      "has_image": true,
+      "image": "data/images/105_tonglun_q20_1.jpg"
+    },
+    {
+      "num": 21,
+      "stem": "陳先生 56 歲，六個月來逐漸發生氣喘及體重減輕現象，最近兩週運動後氣喘惡化。身體 檢查發現血壓為 110/68 mmHg，但吸氣時收縮壓下降 20 mmHg，心跳 138 次/分， 呼吸22次/分，胸部X-ray顯示左肺有實質病變 ( left side consolidation )，其心電圖如下， 請問最可能的診斷為何？ Ⅰ aVR V V 1 4 Ⅱ aVL V V 2 5 Ⅲ aVF V V 3 6 V 1 Ⅱ V6",
+      "options": {
+        "A": "嚴重肺栓塞 ( massive pulmonary embolism )",
+        "B": "肺癌合併心包轉移及心包填塞 ( lung cancer with pericardial metastasis and tamponade )",
+        "C": "感染性心內膜炎併敗血性肺栓塞 ( infective endocarditis with septic embolism )",
+        "D": "急性肺炎合併肋膜積液 (acute pneumonia with massive pleural effusion )"
+      },
+      "answer": "B",
+      "is_multi": false,
+      "has_image": true,
+      "image": "data/images/105_tonglun_q21_1.jpg"
+    },
+    {
+      "num": 22,
+      "stem": "臨床尿路感染最常見的菌種為下列何者？",
+      "options": {
+        "A": "Escherichia coli",
+        "B": "Klebsiella",
+        "C": "Staphylococcus saprophyticus",
+        "D": "Proteus"
+      },
+      "answer": "A",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 23,
+      "stem": "王先生之肺動脈導管監測數值顯示 pulmonary capillary wedge pressure偏低，cardiac output 減少，systemic vascular resistance降低，王先生最可能發生何種休克？",
+      "options": {
+        "A": "hypovolemic shock",
+        "B": "cardiogenic shock",
+        "C": "warm shock in sepsis",
+        "D": "neurogenic shock"
+      },
+      "answer": "D",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 24,
+      "stem": "有關肝功能檢查中，血清轉胺酶 ( aminotransferase ) 的數值與肝臟疾病關係之敘述，下列 何者錯誤？",
+      "options": {
+        "A": "血清轉胺酶的數值與肝臟疾病的嚴重度及預後並無絕對相關性，需合併詳細的病史 詢問及理學檢查，才能做出最準確的判斷",
+        "B": "天門冬胺酸轉移酶 ( AST/SGOT ) 相較於丙氨酸氨基轉移酶 ( ALT/SGPT )，較具有肝臟 的專一性，在病毒型肝炎時，AST/SGOT數值會較 ALT/SGPT數值上升的高",
+        "C": "一般而言，當血清轉胺酶大幅升高時 ( > 500 IU/L )，通常表示嚴重的急性病毒性肝炎 或慢性肝炎急性發作",
+        "D": "血清轉胺酶輕度升高 ( < 250 IU/L )，可能因藥物之使用或脂肪肝所引起"
+      },
+      "answer": "B",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 25,
+      "stem": "腹部理學檢查發現腹部出現血管嘈音 ( bruits )，最不可能為下列何種情形？",
+      "options": {
+        "A": "腹主動脈瘤",
+        "B": "腎動脈狹窄",
+        "C": "髂股動脈阻塞",
+        "D": "腸系膜動脈阻塞"
+      },
+      "answer": "D",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 26,
+      "stem": "林小姐 30 歲，主訴陣發性的下腹痛已將近一年，且一個月裡面最少有五至六天有腹痛 伴隨脹氣，通常解便後會較改善。有時拉肚子，一天會解 2 ~ 3 次的軟便，有時 又會便秘，二、三天沒解便也是常事，沒有解黑便或鮮血便的情形，身體檢查除了 下腹部輕微壓痛之外，並沒有異常的發現，已做過實驗室檢查、尿液檢查及大腸鏡檢查， 都沒有發現特別的問題。林小姐最有可能是下列何種診斷？",
+      "options": {
+        "A": "潰瘍性結腸炎 ( ulcerative colitis )",
+        "B": "克隆氏症 ( Crohn’s disease )",
+        "C": "大腸激躁症 ( irritable bowel syndrome )",
+        "D": "甲狀腺素低下 ( hypothyroidism )"
+      },
+      "answer": "C",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 27,
+      "stem": "以下數據 pH：7.55、PaCO ：25 mmHg、HCO －：22 mEq/L；Na＋：130 mEq/L、 2 3 K＋：3.5 mEq/L、Cl－：98 mEq/L，最可能是下列哪一位病人的？",
+      "options": {
+        "A": "40 歲病人患慢性十二指腸潰瘍，嘔吐不止",
+        "B": "28 歲女性患氣喘病，呼吸窘迫",
+        "C": "60 歲男性糖尿病人發生敗血性休克",
+        "D": "16 歲女學生手腳麻木，呼吸急促"
+      },
+      "answer": "D",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 28,
+      "stem": "阿茲海默症 ( Alzheimer’s disease ) 之鑑別診斷，通常不包括下列何者？",
+      "options": {
+        "A": "正常壓力水腦症 ( normal pressure hydrocephalus )",
+        "B": "HIV ( human immunodeficiency virus ) 感染",
+        "C": "維生素B 缺乏 6",
+        "D": "甲狀腺功能異常"
+      },
+      "answer": "C",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 29,
+      "stem": "有關類風濕性關節炎 ( rheumatoid arthritis ) 之敘述，下列何者錯誤？",
+      "options": {
+        "A": "常為單一關節發作，如膝關節",
+        "B": "容易有關節外之表現",
+        "C": "如發作於手部關節，較不影響遠端指間關節",
+        "D": "血中類風濕因子常呈陽性"
+      },
+      "answer": "A",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 30,
+      "stem": "一位 20 歲男性現役軍人，因發燒、意識不清送醫，其腦脊髓液檢查結果為 WBC：400 cells/mm3、lymphocyte：85%、PMN：15%、sugar：92 mg/dL ( 其血中 sugar 110 mg/dL ) 、protein ：20 mg/dL，最可能是哪一類型的腦膜炎？",
+      "options": {
+        "A": "隱球菌",
+        "B": "結核菌",
+        "C": "病毒性",
+        "D": "細菌性"
+      },
+      "answer": "C",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 31,
+      "stem": "林先生 36 歲，抱怨昨天突然左側頭痛厲害，易清晨發作，眼睛周圍也會痛，伴隨同側 鼻水、鼻塞，以前也曾經發作，一天發作1 ~ 3次，最有可能是什麼問題？",
+      "options": {
+        "A": "tension type headache",
+        "B": "cluster headache",
+        "C": "headache related to sinusitis",
+        "D": "migraine with aura"
+      },
+      "answer": "B",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 32,
+      "stem": "趙先生 25 歲，因車禍導致頭部外傷併顱內出血而住進加護病房，第四天鼻胃管流出 鮮血，內視鏡檢查發現胃大彎處有多處潰瘍，最可能為下列何種潰瘍？",
+      "options": {
+        "A": "Cushing ulcer",
+        "B": "Curling’s ulcer",
+        "C": "marginal ulcer",
+        "D": "Marjolin’s ulcer"
+      },
+      "answer": "A",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 33,
+      "stem": "病人有糖尿病及心臟病病史，一週前因重感冒引起肺炎，目前服藥治療中，主訴近三日 有持續的尖銳左胸疼痛，連呼吸時都會疼痛，您認為病人的疼痛最可能是什麼問題？",
+      "options": {
+        "A": "心絞痛",
+        "B": "肋膜痛",
+        "C": "氣胸",
+        "D": "食道逆流"
+      },
+      "answer": "B",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 34,
+      "stem": "在進行胸腔的叩診評估時，下列狀況中何者顯示為異狀，需再進一步檢查？",
+      "options": {
+        "A": "在背面第七肋間呈現resonance",
+        "B": "在背面第十二肋骨下緣呈現dullness",
+        "C": "在右前胸鎖骨中線第五肋間呈現tympany",
+        "D": "在左前胸鎖骨中線第五肋間呈現dullness"
+      },
+      "answer": "C",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 35,
+      "stem": "75 歲吸菸男性，由於心悸有三日之久、陣發頭暈多次，到急診室求診。心跳 160 次/分， 血壓 120 / 70 mmHg，理學檢查無異常發現，亦無心衰竭現象，12 導程心電圖出現 心房顫動 ( atrial fibrillation )，初步給予iv、ECG、monitor、O 2 後之處置，下列何者最適當？",
+      "options": {
+        "A": "可給予Diltiazem",
+        "B": "立即去顫電擊",
+        "C": "需 MgSO 4 1 ~ 2 mg iv 緩慢注射治療",
+        "D": "每1 ~ 2分鐘，給予 Adenosine 6 mg iv 快速注射"
+      },
+      "answer": "A",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 36,
+      "stem": "請受測者閉眼摸索置於手中熟悉的物品如電池或銅板，並試圖說出品名，主要為評估 下列哪一項功能？",
+      "options": {
+        "A": "立體感覺功能",
+        "B": "感覺運動功能",
+        "C": "共軛協調功能",
+        "D": "減壓反射功能"
+      },
+      "answer": "A",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 37,
+      "stem": "下列代謝性酸血症情形，何者陰離子間隙 ( anion gap, AG ) 不會升高？",
+      "options": {
+        "A": "使用留鉀利尿劑",
+        "B": "乳酸血症",
+        "C": "糖尿病酮酸血症",
+        "D": "甲醇中毒"
+      },
+      "answer": "A",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 38,
+      "stem": "PaO 為60 mmHg 時，約有多少血紅素呈攜氧飽和狀態？ 2",
+      "options": {
+        "A": "0.5",
+        "B": "0.7",
+        "C": "0.9",
+        "D": "1"
+      },
+      "answer": "C",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 39,
+      "stem": "黃先生 43 歲，因為彎腰搬重物，導致嚴重下背疼痛，且其疼痛由左側臀部往下延伸至 左側小腿，尤其前外側部分像針刺的麻痛感更為明顯，理學檢查發現左側足背背曲 (dorsiflexion)的力量明顯比右邊弱，黃先生的核磁共振如圖所示，診斷為腰椎椎間盤 突出，最可能壓迫的神經為何？",
+      "options": {
+        "A": "L3",
+        "B": "L4",
+        "C": "L5",
+        "D": "S1"
+      },
+      "answer": "C",
+      "is_multi": false,
+      "has_image": true,
+      "image": "data/images/105_tonglun_q39_1.jpg"
+    },
+    {
+      "num": 40,
+      "stem": "下列何者是甲狀腺低下之特徵？",
+      "options": {
+        "A": "略顯肥胖、常常會覺得寒冷、易拉肚子",
+        "B": "皮膚乾粗、眼眶水腫、沒有食慾、易便祕",
+        "C": "容易出汗、肌肉酸痛、脈搏跳動強",
+        "D": "聲音易嘶啞、眼睛酸澀怕光、肢體無力"
+      },
+      "answer": "B",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 41,
+      "stem": "一位 32 歲男性，有飲酒習慣，無關節炎及無創傷史，一日突然右膝關節劇烈疼痛， 過去體檢報告顯示血中尿酸值為 8 ~ 9 mg/dL，理學檢查時無發燒，但右膝關節腫脹， 壓痛明顯，請問以下檢查何者最為合宜？",
+      "options": {
+        "A": "抽血檢查抗核抗體 ( ANA )",
+        "B": "抽血檢查類風濕性因子 ( rheumatoid factors )",
+        "C": "抽取關節液檢查",
+        "D": "骨骼掃描"
+      },
+      "answer": "C",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 42,
+      "stem": "白先生 35 歲，做例行性的健康檢查，下列何種檢查已經證實對及早發現癌症與控制其 死亡率是有意義的？",
+      "options": {
+        "A": "胸部X光攝影",
+        "B": "痰液細胞學檢查",
+        "C": "前列腺特異抗原 ( prostate-specific antigen )",
+        "D": "糞便潛血檢查"
+      },
+      "answer": "D",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 43,
+      "stem": "目前台灣大腸直腸癌篩檢策略，下列敘述何者正確？",
+      "options": {
+        "A": "不論男女，50歲以上即可每二年接受一次糞便潛血檢驗",
+        "B": "有一個小於1公分管狀腺瘤 ( tubular adenoma ) 者，於一年後重做大腸鏡",
+        "C": "一級血親有大腸癌病史者，開始篩檢年齡為50歲",
+        "D": "使用糞便潛血化學法篩檢"
+      },
+      "answer": "A",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 44,
+      "stem": "有關下肢皮膚傷口縫合的敘述，下列何者最為不適當？",
+      "options": {
+        "A": "超過6 ~ 8小時的傷口不應立即縫合",
+        "B": "傷口縫合前僅以優碘清潔以預防感染",
+        "C": "Nylon縫線不可吸收，適用於表皮縫合",
+        "D": "常以傳統角針縫合皮膚，下針方向與傷口垂直"
+      },
+      "answer": "B",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 45,
+      "stem": "有關 malignant hyperthermia之敘述，下列何者正確？",
+      "options": {
+        "A": "起因於下視丘體溫調控中樞設定異常",
+        "B": "需儘快使用退燒藥降低體溫",
+        "C": "可見於使用neuroleptic 藥物 ( 如：haloperidol ) 病人",
+        "D": "會出現myoclonus"
+      },
+      "answer": "C",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 46,
+      "stem": "張先生 50歲，主訴胸骨下壓迫性疼痛已超過 20分鐘，盜汗及呼吸短促。目前體溫 37C、 心跳 100次/分、呼吸 32次/分、血壓 160/100 mmHg，氧氣飽和度 92%。給予 O 並做完 2 ECG後，下列何項處置最佳？",
+      "options": {
+        "A": "Labetalol 降血壓後與靜脈滴注NTG",
+        "B": "注射 Codeine 止痛與靜脈滴注NTG",
+        "C": "舌下NTG、Aspirin、如無效再注射Morphine",
+        "D": "舌下NTG、注射 Codeine止胸痛"
+      },
+      "answer": "C",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 47,
+      "stem": "白太太 56 歲，主訴上腹悶痛，通常在飯後 1 ~ 3 小時發生，痛的位置並無幅射或移轉 現象，每次疼痛持續數 10 分鐘，這種狀況斷斷續續已有一年之久，病人從藥房買一些 胃乳片可明顯改善症狀，但一停藥疼痛又復發。 請問白太太的疼痛屬於？",
+      "options": {
+        "A": "visceral pain",
+        "B": "somatic pain",
+        "C": "refer pain",
+        "D": "phantom pain"
+      },
+      "answer": "A",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 48,
+      "stem": "下列有關真空引流管 ( hemovac ) 照護及拔除的注意事項，下列處置何者錯誤？",
+      "options": {
+        "A": "多用於骨科、乳房等非腹部手術引流用",
+        "B": "屬於密閉式引流系統 ( close system )",
+        "C": "一般用在污染的傷口，需要引流較多液體時會使用此種引流管",
+        "D": "使用前及倒出引流液後須將容器壓扁，當引流袋充滿1/2時須排空"
+      },
+      "answer": "C",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 49,
+      "stem": "有關 Penrose 引流管，下列敘述何者錯誤？",
+      "options": {
+        "A": "是利用「重力及毛細現象」引流",
+        "B": "可在引流管內鬆塞紗布，以增加吸附力",
+        "C": "屬於開放式引流系統 ( open system )",
+        "D": "屬於一種主動引流 ( active drainage )"
+      },
+      "answer": "D",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 50,
+      "stem": "根據 104 年 11 月 03 日修正後發布之「專科護理師分科及甄審辦法」，下列何者具備 報考專科護理師甄審資格？",
+      "options": {
+        "A": "在美國以APN執業多年，但無國內護理師工作經驗之歸國華僑",
+        "B": "大學護理系畢業後即在職進修二年完成專科護理師學位學程",
+        "C": "大學護理系畢業後工作二年半完成醫院辦理之專科護理師訓練",
+        "D": "護理碩士畢業後臨床工作二年，完成醫院辦理之專科護理師訓練"
+      },
+      "answer": "D",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 51,
+      "stem": "有關臨床診療指引 ( clinical practice guideline, CPG ) 之敘述，下列何者最為不適當？",
+      "options": {
+        "A": "可協助醫師做出醫療決定",
+        "B": "有助於產生「食譜式」( cook-book medicine ) 的醫療文化",
+        "C": "整體目標為改善病人醫療結果",
+        "D": "能引導臨床診療的學習"
+      },
+      "answer": "B",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 52,
+      "stem": "為有效評析臨床照護指引，常依據 AGREE ( the Appraisal of Guidelines for Research and Evaluation ) II做為評析工具，評析範疇不包括下列何者？",
+      "options": {
+        "A": "指引範圍與目的",
+        "B": "指引發展嚴謹度",
+        "C": "指引發展成本與經費多寡",
+        "D": "指引明確性與代表性"
+      },
+      "answer": "C",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 53,
+      "stem": "若以 PDCA 策略改善術後疼痛問題，下列情境何者最能代表PDCA 中的A？",
+      "options": {
+        "A": "重新訂定術後疼痛照顧執行標準",
+        "B": "檢視疼痛改善指標達成的程度",
+        "C": "評值病患對照顧的滿意程度",
+        "D": "推動疼痛指標記錄於護理病歷"
+      },
+      "answer": "A",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 54,
+      "stem": "研究證據評讀者，通常會透過以下何項資料來判斷研究結果的不精確性 ( imprecision of the estimated effect )？",
+      "options": {
+        "A": "卡方值 ( X 2 )",
+        "B": "信賴區間 ( confidence interval, CI )",
+        "C": "效果量 ( effect size )",
+        "D": "p 值 ( p value )"
+      },
+      "answer": "B",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 55,
+      "stem": "敗血性休克 ( septic shock ) 為下列哪一類休克？",
+      "options": {
+        "A": "cardiogenic shock",
+        "B": "distributive shock",
+        "C": "obstructive shock",
+        "D": "hypovolemic shock"
+      },
+      "answer": "B",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 56,
+      "stem": "根據 2011 年牛津實證醫學中心所提出的證據等級，欲瞭解處置可能造成的傷害 ( treatment harms ) 的最佳證據，下列何者最不適當？",
+      "options": {
+        "A": "隨機樣本調查 ( random sample survey )",
+        "B": "嵌入型個案對照研究 ( nested case-control study, NCC )",
+        "C": "有明顯效果量的觀察性研究 ( observational study )",
+        "D": "隨機控制試驗 ( randomized controlled trial )"
+      },
+      "answer": "A",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 57,
+      "stem": "為瞭解穿著彈性襪是否可以預防長途飛行之下肢靜脈栓塞 ( deep vein thrombosis, DVT )， 搜尋到的文獻中顯示 100位有穿彈性襪組產生 DVT的人數為 2，而 100位沒有穿彈性襪組 產生DVT的人數為12，請問其益一需治數 ( Number Needed to Treat, NNT )為何？",
+      "options": {
+        "A": "0.12",
+        "B": "0.10",
+        "C": "8.3",
+        "D": "10"
+      },
+      "answer": "D",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 58,
+      "stem": "一位胃癌的病人因為一直解黑便、無法進食，身形日益消瘦。家屬因為擔心病人知道得 癌症會讓他喪失求生意志，因此只告訴他得了胃潰瘍，並要求醫護人員不能告知實情。 今天病人對你說：「這個病應該很嚴重吧，哪有胃潰瘍都不會好的，你可不可以告訴 我，我得了什麼病啊？」，下列回應何者最適當？",
+      "options": {
+        "A": "「伯伯，您得的是胃潰瘍啦，不要想太多，配合醫生治療就會好的。」",
+        "B": "「我會請醫生與您說明。」告訴伯伯解釋病情是醫生的工作，你會幫他請醫生過來。」",
+        "C": "「您的子女都很清楚，您可以去問他們。」",
+        "D": "「伯伯，您怎麼會這麼想，是在擔心什麼事嗎？」"
+      },
+      "answer": "D",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 59,
+      "stem": "根據專科護理師於醫師監督下執行醫療業務辦法，下列何者是專科護理師於醫師監督下 得執行之醫療業務？",
+      "options": {
+        "A": "鼻部、口腔及耳道填塞止血",
+        "B": "非初次恥骨上膀胱造廔管更換",
+        "C": "中央靜脈導管拔除更換",
+        "D": "周邊靜脈置入中央導管 ( PICC、PCVC ) 更換"
+      },
+      "answer": "B",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 60,
+      "stem": "下列何者非專科護理師於醫師監督下執行醫療業務之合法執業範圍？",
+      "options": {
+        "A": "初次鼻胃管置入",
+        "B": "初次氣切外管之更換",
+        "C": "表淺傷口縫合",
+        "D": "真空引流管 ( hemovac ) 拔除"
+      },
+      "answer": "B",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 61,
+      "stem": "根據「專科護理師及訓練期間專科護理師執行監督下之醫療業務範圍及項目」，下列何者 非屬專科護理師及訓練專科護理師可代為開立「預立特定醫療流程表單」之範圍？",
+      "options": {
+        "A": "入院許可單",
+        "B": "治療處置及影像檢驗醫囑單",
+        "C": "手術同意書及麻醉同意書",
+        "D": "會診單"
+      },
+      "answer": "C",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 62,
+      "stem": "在面對病人及家屬的諮詢時，提供諮詢者 ( consultant ) 應注意的原則，下列何者最為適當？",
+      "options": {
+        "A": "諮詢必須是由提供諮詢者提出問題後才開始",
+        "B": "提供諮詢者有直接處理詢問者照護的權力",
+        "C": "提供諮詢者不直接開處方但提供建議",
+        "D": "提供病人或家屬的諮詢過程不需做紀錄"
+      },
+      "answer": "C",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 63,
+      "stem": "下列哪項措施無法減少壓瘡的發生？",
+      "options": {
+        "A": "維持良好的活動能力，避免過度臥床休息",
+        "B": "臀部使用氣圈墊",
+        "C": "改善營養不良問題",
+        "D": "保持皮膚乾淨乾燥，使用保濕乳液"
+      },
+      "answer": "B",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 64,
+      "stem": "某病人疑似為人類免疫缺乏病毒 ( HIV ) 感染者，護理師注射時不小心被沾有該病人血液 的針頭扎到，醫院欲對該病人進行抽血檢驗HIV，下列敘述何者正確？",
+      "options": {
+        "A": "須經病人本人同意，才能抽血與檢驗",
+        "B": "端視醫院內規之規定，是否抽血與檢驗",
+        "C": "如病人不同意，可請求法院進行裁定",
+        "D": "得採集病人之檢體進行檢驗，無須病人同意"
+      },
+      "answer": "D",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 65,
+      "stem": "依據專科護理師於醫師監督下執行醫療業務辦法，醫師「預立特定醫療流程」需由下列 何者通過，始得實施？",
+      "options": {
+        "A": "專科醫學會",
+        "B": "醫院的專科護理師作業小組",
+        "C": "專科護理師學會",
+        "D": "衛生福利部通過，全國醫院統一適用"
+      },
+      "answer": "B",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 66,
+      "stem": "王先生為人類免疫缺乏病毒感染者，擔心其男友約翰在不知情之情況下，有可能被王先生 感染，是否應將王先生的病情告知約翰，下列作法何者最適當？",
+      "options": {
+        "A": "基於不傷害原則，醫療人員應告知約翰",
+        "B": "基於行善原則，醫療人員應告知約翰",
+        "C": "如果王先生不想讓約翰知道，應尊重其意願",
+        "D": "交由醫院的倫理委員會判斷並決定"
+      },
+      "answer": "C",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 67,
+      "stem": "要規劃成功的健康教育方案，主要內容不須包括下列何者？",
+      "options": {
+        "A": "計畫前評估需求及選擇優先問題",
+        "B": "架構在健康教育 / 促進理論",
+        "C": "執行後的評估成效",
+        "D": "執行過程要依嚴謹的實證研究步驟"
+      },
+      "answer": "D",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 68,
+      "stem": "關於中央靜脈導管相關血流感染 ( central line associated blood stream infection )，下列何者 最不適當？",
+      "options": {
+        "A": "置放中央靜脈導管時，對病人之規定為使用最大無菌面防護，從頭到腳全身覆蓋",
+        "B": "即使確實執行手部衛生，確實消毒，使用最大面積無菌覆蓋防護",
+        "C": "應儘量避免使用鼠蹊部位置放中央靜脈導管",
+        "D": "碘酒加酒精比2% chlorhexidine gluconate消毒為佳"
+      },
+      "answer": "D",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 69,
+      "stem": "對於使用呼吸器病人，依「104 ~ 105 年侵入性醫療處置照護品質提升計畫作業手冊- 醫院版」，執行降低呼吸器相關肺炎 ( Ventilator Associated Pneumonia, VAP ) 之措施， 下列何者最不適當？",
+      "options": {
+        "A": "床頭維持抬高30 ~ 45度，除非有禁忌症",
+        "B": "宜使用0.2% ~ 0.5% chlorhexidine gluconate 漱口水，每天一次執行口腔抗菌照護",
+        "C": "除非有相關禁忌症，每日需評估是否可儘早脫離呼吸器",
+        "D": "適時排空呼吸器管路積水"
+      },
+      "answer": "B",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 70,
+      "stem": "郭太太 40歲，身高 160公分，體重 78公斤，屬輕度工作量，被診斷為糖尿病。每日口服 飯前降血糖藥物一次。假設郭太太每日需要的熱量為 1800 大卡，依平衡飲食的標準， 來自脂肪的熱量不能多於：",
+      "options": {
+        "A": "360 大卡",
+        "B": "480 大卡",
+        "C": "540 大卡",
+        "D": "900 大卡"
+      },
+      "answer": "C",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 71,
+      "stem": "一位 68 歲男性，有吸菸，三酸甘油脂 240 mg/dL，LDL-C 140 mg/dL，血壓收縮壓為 168 mmHg，舒張壓80 mmHg，下列敘述何者最適當？",
+      "options": {
+        "A": "為第二期高血壓",
+        "B": "血脂數值屬異常邊緣宜續追蹤",
+        "C": "確定為代謝症候群需轉介",
+        "D": "定期追蹤3 ~ 6 個月再考慮治療"
+      },
+      "answer": "A",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 72,
+      "stem": "有關心臟聽診與瓣膜音位置的配對，下列何者正確？",
+      "options": {
+        "A": "A：肺動脈區、B：主動脈區",
+        "B": "C：三尖瓣區、D：肺動脈區",
+        "C": "B：三尖瓣區、C：二尖瓣區",
+        "D": "A：主動脈區、D：二尖瓣區"
+      },
+      "answer": "D",
+      "is_multi": false,
+      "has_image": true,
+      "image": "data/images/105_tonglun_q72_1.jpg"
+    },
+    {
+      "num": 73,
+      "stem": "王太太的左手近端指關節 ( proximal interphalangeal joint ) 有曲屈，遠端指關節 ( distal interphalangeal joint ) 有過度伸展且有尺側偏移，可能有什麼問題？",
+      "options": {
+        "A": "骨性關節炎",
+        "B": "類風濕性關節炎",
+        "C": "痛風",
+        "D": "骨折變形"
+      },
+      "answer": "B",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 74,
+      "stem": "患者因 iPTH 過高，藥物治療無效，接受副甲狀腺切除術後突發 Chvostek’s sign 及 Trousseau’s sign，最可能為哪一種離子異常？",
+      "options": {
+        "A": "低血鎂",
+        "B": "低血鉀",
+        "C": "低血鈣",
+        "D": "高血鈣"
+      },
+      "answer": "C",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 75,
+      "stem": "下列何者不是麻痺性腸阻塞 ( paralytic ileus ) 之臨床表徵？",
+      "options": {
+        "A": "腸音亢進",
+        "B": "腹部脹大",
+        "C": "腹部X-ray顯示腸道脹氣",
+        "D": "噁心嘔吐"
+      },
+      "answer": "A",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 76,
+      "stem": "有關胸部評估結果之敘述，下列何者錯誤？",
+      "options": {
+        "A": "肋膜積水病人叩診時，出現反響音",
+        "B": "肺炎病人觸診時，其觸覺震顫會增強",
+        "C": "肺氣腫病人視診時，呈現胸部前後徑加大",
+        "D": "呼吸道狹窄病人聽診時，出現喘鳴聲"
+      },
+      "answer": "A",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 77,
+      "stem": "有關脾臟膿瘍 ( splenic abscess ) 之敘述，下列何者正確？",
+      "options": {
+        "A": "常見且為致命的疾病",
+        "B": "多發性膿瘍比單發性膿瘍的死亡率低",
+        "C": "脾臟腫大並非典型症狀",
+        "D": "須接受脾臟切除手術以根除病源"
+      },
+      "answer": "C",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 78,
+      "stem": "下列何者不是診斷肺癌常用的方法？",
+      "options": {
+        "A": "電腦斷層定位穿刺",
+        "B": "支氣管鏡切片",
+        "C": "內視鏡超音波",
+        "D": "骨骼掃描"
+      },
+      "answer": "D",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 79,
+      "stem": "下列何者不是常見的腸道內細菌？",
+      "options": {
+        "A": "Clostridium difficile",
+        "B": "Escherichia coli",
+        "C": "Enterococcus faecium",
+        "D": "Staphylococcus aureus"
+      },
+      "answer": "D",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 80,
+      "stem": "有關橫紋肌溶解症之敘述，下列何者正確？",
+      "options": {
+        "A": "會併發低血鉀",
+        "B": "肌酸激酶值升高",
+        "C": "通常72小時後會產生茶色尿",
+        "D": "可能會因慢性腎臟損傷導致尿量減少 【以下空白】"
+      },
+      "answer": "B",
+      "is_multi": false,
+      "has_image": false
+    }
+  ]
+}

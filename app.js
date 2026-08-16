@@ -27,6 +27,11 @@ function renderHome(manifest) {
     (byYear[exam.year] = byYear[exam.year] || []).push(exam);
   }
 
+  // 標題副標由 manifest 推算，新增考卷時不必再改 index.html
+  const years = manifest.exams.map(e => e.year);
+  document.getElementById('home-tagline').textContent =
+    `${Math.min(...years)} – ${Math.max(...years)} 年度試題 · 共 ${manifest.exams.length} 份考卷`;
+
   const container = document.getElementById('exam-list');
   container.innerHTML = '';
 

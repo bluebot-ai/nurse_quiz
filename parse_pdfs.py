@@ -1,7 +1,11 @@
 #!/usr/bin/env python3
-"""Parse nursing exam PDFs into JSON data files."""
+"""Parse nursing exam PDFs into JSON data files.
 
-import pdfplumber, re, json, os
+    python3 parse_pdfs.py                # 重新解析全部（會覆蓋手動修正與圖片欄位！）
+    python3 parse_pdfs.py 105_neike ...  # 只重新解析指定的考卷，其餘沿用現有資料
+"""
+
+import pdfplumber, re, json, os, sys
 
 BASE = os.path.dirname(os.path.abspath(__file__))
 QUIZ = os.path.join(BASE, "quiz")
@@ -9,7 +13,9 @@ DATA = os.path.join(BASE, "data")
 
 # Allow optional spaces inside parens: (A) or ( A ) or (A )
 _OPT_RE   = re.compile(r'\(\s*([A-D])\s*\)\s*(.*?)(?=\s*\(\s*[A-D]\s*\)|$)')
-_Q_RE     = re.compile(r'^(\d+)\.\s*(.+)')  # allow zero or more spaces after period
+# Question number at line start. The (?!\d) guard stops a wrapped line that
+# begins with a decimal ("39.5C，白血球…"、"10.1mg/dL") being read as a題號.
+_Q_RE     = re.compile(r'^(\d+)\.(?!\d)\s*(.+)')
 _INSTR_RE = re.compile(
     r'^(?:'
     r'第\d+頁|共\d+頁|'
@@ -46,12 +52,13 @@ def parse_answers(pdf_path):
     answers = {}
 
     # ── Format A: column-table  e.g. "1 C  11 A  21 C ..."  (one number + one answer per pair)
-    # Also handles multi-select answers like "43 BC" and special "46 送分"
+    # Also handles multi-select answers like "43 BC" / "39 C、D" and special "46 送分"
     # Try matching pairs (num, answer) on same line
-    table_matches = re.findall(r'\b(\d+)\s+(送分|[A-D]{1,4})\b', text)
+    table_matches = re.findall(
+        r'\b(\d+)\s+(送分|[A-D]{1,4}(?:\s*、\s*[A-D]{1,4})*)(?![A-Za-z])', text)
     if table_matches:
         for num_s, ans in table_matches:
-            answers[int(num_s)] = ans
+            answers[int(num_s)] = _clean_answer_token(ans)
         # Verify at least half of Q1-80 are covered
         if len(answers) >= 40:
             return answers
@@ -96,16 +103,43 @@ def parse_answers(pdf_path):
 
 # ─── question parser ──────────────────────────────────────────────────────────
 
+_WATERMARK_SIZE = 40          # 「公告試題」「僅供參考」斜向浮水印是 100pt 彩色字
+_WHITE = {(1,), (1, 1, 1), (1, 1, 1, 0)}
+
+
+def _clean_page(page):
+    """Strip the artefacts that pollute these PDFs' text layer:
+
+    * 假粗體：同一個字重複描繪兩次（105 內科 p9-p11 「林先生生 66 歲」）
+    * 隱形浮水印：白色的「的」「a」字元散在內文中（105、106 全篇）
+    * 斜向大字浮水印：紅色 100pt 的「公告試題」「僅供參考」
+    """
+    page = page.dedupe_chars(tolerance=1)
+
+    def keep(obj):
+        if obj.get("object_type") != "char":
+            return True
+        if (obj.get("size") or 0) >= _WATERMARK_SIZE:
+            return False
+        color = obj.get("non_stroking_color")
+        if color is not None and tuple(color) in _WHITE:
+            return False
+        return True
+
+    return page.filter(keep)
+
+
 def parse_questions(pdf_path):
     lines = []
     with pdfplumber.open(pdf_path) as pdf:
         for page in pdf.pages:
-            lines.extend((page.extract_text() or "").split('\n'))
+            lines.extend((_clean_page(page).extract_text() or "").split('\n'))
 
     questions   = []
     current_q   = None
     last_opt    = None
     in_preamble = True
+    last_num    = 0     # 題號只會遞增 1..80，用來擋掉內文中的假題號
 
     def flush():
         nonlocal current_q
@@ -121,13 +155,14 @@ def parse_questions(pdf_path):
             continue
 
         qm = _Q_RE.match(line)
-        if qm:
+        if qm and (in_preamble or last_num < int(qm.group(1)) <= 80):
             num  = int(qm.group(1))
             stem = qm.group(2).strip()
             if in_preamble and _PREAMBLE_RE.match(line):
                 continue
             flush()
             in_preamble = False
+            last_num = num
             current_q = {
                 'num': num, 'stem': stem,
                 'options': {}, 'answer': None,
@@ -163,7 +198,9 @@ def parse_questions(pdf_path):
 # ─── exam manifest ────────────────────────────────────────────────────────────
 
 EXAMS = [
-    # (roc_year, id_suffix, subject_cn, subject_label, subtitle)
+    # (roc_year, id_suffix, subject_cn, subject_label, subtitle[, file_prefix, exam_id])
+    # file_prefix / exam_id are only needed when a year has more than one sitting
+    # (108 年分第一次、第二次筆試)．
     (114, "neike",   "內科", "進階專科護理", "內科"),
     (114, "tonglun", "通論", "專科護理通論", "通論"),
     (113, "neike",   "內科", "進階專科護理", "內科"),
@@ -176,15 +213,32 @@ EXAMS = [
     (110, "tonglun", "通論", "專科護理通論", "通論"),
     (109, "neike",   "內科", "進階專科護理", "內科"),
     (109, "tonglun", "通論", "專科護理通論", "通論"),
+    (108, "neike",   "內科", "進階專科護理", "內科（第二次）",
+     "108年度第二次", "108_2_neike"),
+    (108, "tonglun", "通論", "專科護理通論", "通論（第二次）",
+     "108年度第二次", "108_2_tonglun"),
+    (108, "neike",   "內科", "進階專科護理", "內科（第一次）",
+     "108年度第一次", "108_1_neike"),
+    (108, "tonglun", "通論", "專科護理通論", "通論（第一次）",
+     "108年度第一次", "108_1_tonglun"),
+    (107, "neike",   "內科", "進階專科護理", "內科"),
+    (107, "tonglun", "通論", "專科護理通論", "通論"),
+    (106, "neike",   "內科", "進階專科護理", "內科"),
+    (106, "tonglun", "通論", "專科護理通論", "通論"),
+    (105, "neike",   "內科", "進階專科護理", "內科"),
+    (105, "tonglun", "通論", "專科護理通論", "通論"),
 ]
 
-ROC_TO_AD = {109: 2020, 110: 2021, 111: 2022, 112: 2023, 113: 2024, 114: 2025}
+ROC_TO_AD = {105: 2016, 106: 2017, 107: 2018, 108: 2019,
+             109: 2020, 110: 2021, 111: 2022, 112: 2023, 113: 2024, 114: 2025}
 
 
-def process_exam(roc_year, id_suffix, subject_cn, subject_label, subtitle_label):
-    exam_id  = f"{roc_year}_{id_suffix}"
-    q_file   = os.path.join(QUIZ, f"{roc_year}年度_專科護理師_{subject_cn}_試題.pdf")
-    a_file   = os.path.join(QUIZ, f"{roc_year}年度_專科護理師_{subject_cn}_標準答案.pdf")
+def process_exam(roc_year, id_suffix, subject_cn, subject_label, subtitle_label,
+                 file_prefix=None, exam_id=None):
+    exam_id  = exam_id or f"{roc_year}_{id_suffix}"
+    prefix   = file_prefix or f"{roc_year}年度"
+    q_file   = os.path.join(QUIZ, f"{prefix}_專科護理師_{subject_cn}_試題.pdf")
+    a_file   = os.path.join(QUIZ, f"{prefix}_專科護理師_{subject_cn}_標準答案.pdf")
     out_file = os.path.join(DATA, f"{exam_id}.json")
 
     print(f"Processing {exam_id} ...", end=" ", flush=True)
@@ -226,11 +280,31 @@ def process_exam(roc_year, id_suffix, subject_cn, subject_label, subtitle_label)
     return data
 
 
+def exam_id_of(args):
+    """The exam id for an EXAMS entry (explicit 7th field, else year_suffix)."""
+    return args[6] if len(args) > 6 else f"{args[0]}_{args[1]}"
+
+
 def main():
     os.makedirs(DATA, exist_ok=True)
-    manifest_exams = []
+    only = set(sys.argv[1:])
+    if only:
+        print("Only re-parsing:", ", ".join(sorted(only)))
 
+    manifest_path = os.path.join(DATA, "exams.json")
+    existing = {}
+    if os.path.exists(manifest_path):
+        with open(manifest_path, encoding='utf-8') as f:
+            existing = {e["id"]: e for e in json.load(f).get("exams", [])}
+
+    manifest_exams = []
     for args in EXAMS:
+        exam_id = exam_id_of(args)
+        if only and exam_id not in only:
+            # keep the current manifest entry untouched
+            if exam_id in existing:
+                manifest_exams.append(existing[exam_id])
+            continue
         data = process_exam(*args)
         manifest_exams.append({
             "id":       data["id"],
@@ -243,7 +317,7 @@ def main():
             "file":     f"data/{data['id']}.json",
         })
 
-    with open(os.path.join(DATA, "exams.json"), 'w', encoding='utf-8') as f:
+    with open(manifest_path, 'w', encoding='utf-8') as f:
         json.dump({"exams": manifest_exams}, f, ensure_ascii=False, indent=2)
 
     print(f"\nWrote data/exams.json with {len(manifest_exams)} exams.")

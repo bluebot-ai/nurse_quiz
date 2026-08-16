@@ -1,0 +1,1059 @@
+{
+  "id": "108_2_tonglun",
+  "title": "108年度 通論（第二次）",
+  "subtitle": "專科護理通論",
+  "year": 108,
+  "ad_year": 2019,
+  "subject": "通論",
+  "total": 80,
+  "questions": [
+    {
+      "num": 1,
+      "stem": "一位28歲男性，因車禍導致脊椎神經損傷，下肢無法行走且無法自行解尿，需靠自我 導尿。預計下週出院，病人和家屬很焦慮，不知道未來該怎麼辦。下列衛教計畫內容 何者最不合適？",
+      "options": {
+        "A": "提供圖片和文字的衛教單張，讓他可以按照自己學習速度，自行學習、操作",
+        "B": "指導病人和家屬導尿技術及回覆示教直到可以獨立、正確執行所有步驟",
+        "C": "鼓勵病人和家屬說出對導尿技術、尿路問題的憂慮及感覺",
+        "D": "合適的時間可以轉介脊椎損傷支持團體或居家照護服務"
+      },
+      "answer": "A",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 2,
+      "stem": "醫病共享決策(shared decision making, SDM)之敘述，下列何者錯誤？",
+      "options": {
+        "A": "適用於診斷或治療有兩個以上合理選項之情況",
+        "B": "過程中醫師和專科護理師均具有臨床決策引導員(coach)的角色",
+        "C": "必須取決於病人的偏好及充分認知",
+        "D": "病人需具備基本的教育程度及語文能力"
+      },
+      "answer": "D",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 3,
+      "stem": "專科護理師詢問新進護理人員「比較胰島素休克和糖尿病休克的異同？」，根據布魯 姆(B. Bloom)的認知領域教學目標，此問句屬於何項層次？",
+      "options": {
+        "A": "知識",
+        "B": "理解",
+        "C": "應用",
+        "D": "分析"
+      },
+      "answer": "D",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 4,
+      "stem": "專科護理師面對病人及其家屬諮詢醫學相關或病情說明，需經由尋找文獻證據、嚴格 評析文獻、再執行實證為基礎的措施等過程。其中之「執行實證為基礎的措施」步驟 為5A中的：",
+      "options": {
+        "A": "assessing",
+        "B": "acquiring",
+        "C": "applying",
+        "D": "appraising"
+      },
+      "answer": "C",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 5,
+      "stem": "撰寫教育方案的目標，下列何者錯誤？",
+      "options": {
+        "A": "以具體可觀察的行為動詞作為開端",
+        "B": "以教學者的角度考量",
+        "C": "依學習者的最終期望",
+        "D": "應包含認知、情意及技能"
+      },
+      "answer": "B",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 6,
+      "stem": "依病人自主權利法之規定，下列何種情況，醫師可不給予「人工營養及流體餵養」？",
+      "options": {
+        "A": "處於可逆轉昏迷狀況之病人",
+        "B": "中度失智病人",
+        "C": "永久植物人狀態",
+        "D": "輕度失智病人"
+      },
+      "answer": "C",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 7,
+      "stem": "李先生擬死後將其腎臟指定捐贈給其妹夫，下列敘述何者正確？",
+      "options": {
+        "A": "僅活體器官捐贈可「指定捐贈」，屍體器官捐贈無法「指定捐贈」",
+        "B": "屍體器官捐贈可「指定捐贈」，但只能捐贈給配偶，不能捐贈給妹夫",
+        "C": "屍體器官捐贈可「指定捐贈」，但只限於捐贈肝臟才可以",
+        "D": "屍體器官捐贈可「指定捐贈」，李先生可指定捐贈腎臟給妹夫"
+      },
+      "answer": "D",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 8,
+      "stem": "勞動基準法第9條規定：「臨時性、短期性、季節性及特定性工作得為定期契約；有繼 續性工作應為不定期契約」。依專科護理師之工作性質，專科護理師與醫院雇主所簽 訂的勞動契約屬何類型契約？",
+      "options": {
+        "A": "不定期契約",
+        "B": "特定性定期契約",
+        "C": "短期性定期契約",
+        "D": "臨時性定期契約"
+      },
+      "answer": "A",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 9,
+      "stem": "專科護理師角色中，關於協調(coordination)或協調者(coordinator)的敘述，下列敘述何 者錯誤？",
+      "options": {
+        "A": "專科護理師扮演協調、整合醫療服務的角色，可減少病患的住院天數",
+        "B": "協調(coordination)對於避免醫療服務或資源的重複並無幫助",
+        "C": "合作執業模式(collaborative practice model)的優點為促進醫療照護的協調 (coordination)與持續(continuity)",
+        "D": "藉由協調(coordination)，醫療資源或服務可達成最大效率化"
+      },
+      "answer": "B",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 10,
+      "stem": "醫療法第106條規定「對於醫事人員或緊急醫療救護人員以強暴、脅迫、恐嚇或其他非 法之方法，妨害其執行醫療或救護業務者，處三年以下有期徒刑，得併科新臺幣三十 萬元以下罰金」，下列敘述何者最適用此項條文？",
+      "options": {
+        "A": "甲病人在醫院門口打昏了要下班回家的乙專科護理師",
+        "B": "甲病人在醫院美食街打昏了要去用餐的乙專科護理師",
+        "C": "甲病人衝到護理站罵了乙專科護理師一句王八蛋後立刻消失",
+        "D": "甲病人打昏正在急救病人的乙專科護理師"
+      },
+      "answer": "D",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 11,
+      "stem": "甲醫師於得知林先生確診為肝癌後，即告知林先生的家屬此訊息，並徵求家屬的意見 是否告知林先生，下列敘述何者錯誤？",
+      "options": {
+        "A": "甲違反尊重隱私原則",
+        "B": "甲違反公平正義原則",
+        "C": "甲違反保密原則",
+        "D": "甲違反尊重自主原則"
+      },
+      "answer": "B",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 12,
+      "stem": "根據「病人自主權立法」，對於「預立醫療決定書」的有效性，下列敘述何者正確？",
+      "options": {
+        "A": "須符合五款臨床條件之一，方可生效：末期病人、不可逆之昏迷、永久植物人、極 重度失智症、其他經中央主關機關公告之重症",
+        "B": "可以到相關窗口填寫「預立醫療決定書」便可註記到健保卡，方可生效",
+        "C": "須經「預立醫療照護諮商」及「預立醫療決定書」簽訂，便可註記到健保卡，方可 生效",
+        "D": "須經「預立醫療照護諮商」、「預立醫療決定書」簽訂及見證或公證並上傳到中央 主管機關資料庫和健保卡註記，方可生效"
+      },
+      "answer": "D",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 13,
+      "stem": "一位18歲男性，父母旅居海外，平日與兩位姑姑同住。因感冒併發嚴重心肌炎由小姑 姑送至醫院，心因性休克正在加護病房急救，需要使用葉克膜維生。小姑姑擔心日後 變成植物人，反對裝置葉克膜，大姑姑則在電話裡請醫師一定要救到底，下列敘述何 者正確？",
+      "options": {
+        "A": "由於沒有法定監護人或代理人，小姑姑出具DNR同意書，故不可以裝置葉克膜",
+        "B": "由於大姑姑是平日主要照顧者，因此應以大姑姑的意見為主，得到口頭同意書，可 以裝置葉克膜",
+        "C": "由於是未成年人，故須等到爸媽抵達醫院並簽署同意書後，才可以裝置葉克膜",
+        "D": "由於狀況緊急，不須等親屬簽署同意書，可以裝置葉克膜"
+      },
+      "answer": "D",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 14,
+      "stem": "「病人自主權利法」中所規定的敘述，下列何者錯誤？",
+      "options": {
+        "A": "立法目的在於減少無意義醫療資源的消耗、減少醫療爭議與醫療訴訟",
+        "B": "維持生命治療：指心肺復甦術、機械式維生系統、血液製品、為特定疾病而設之專 門治療、重度感染時所給予之抗生素等任何有可能延長病人生命之必要醫療措施",
+        "C": "病人對於病情、醫療選項及各選項之可能成效與風險預後，有知情之權利；對於醫 師提供之醫療選項有選擇與決定之權利",
+        "D": "具完全行為能力之人，可以於意識清楚時決定其未來相關醫療措施，並隨時可以書 面撤回或變更"
+      },
+      "answer": "A",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 15,
+      "stem": "依據專科護理師於醫師監督下執行醫療業務辦法，「預立特定醫療流程」需由下列何 者審查確認，始得實施？",
+      "options": {
+        "A": "專科醫學會",
+        "B": "醫院的專科護理師作業小組",
+        "C": "專科護理師學會",
+        "D": "衛生福利部統一通過之標準"
+      },
+      "answer": "B",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 16,
+      "stem": "護理師正在接受專科護理師培訓課程，下列敘述何者正確？",
+      "options": {
+        "A": "僅能置入周邊動脈導管",
+        "B": "僅能拔除周邊動脈導管",
+        "C": "能拔除及置入周邊動脈導管",
+        "D": "無法置入或拔除周邊動脈導管"
+      },
+      "answer": "C",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 17,
+      "stem": "根據「專科護理師於醫師監督下執行醫療業務辦法」，下列何者屬於專科護理師可代為 開立的預立特定醫療流程表單？ ①不施行心肺復甦術同意書 ②超音波檢查單 ③藥物處方醫囑 ④出院診斷證明書",
+      "options": {
+        "A": "①②",
+        "B": "③④",
+        "C": "②③",
+        "D": "②④"
+      },
+      "answer": "C",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 18,
+      "stem": "根據「專科護理師於醫師監督下執行醫療業務辦法」，下列何者不屬於專科護理師可以 移除的管路？",
+      "options": {
+        "A": "動靜脈雙腔導管",
+        "B": "胸腔引流管",
+        "C": "經皮腎臟造瘻術引流管",
+        "D": "硬脊膜外麻醉之管路"
+      },
+      "answer": "D",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 19,
+      "stem": "一位30歲男性搬運工，右下肢疼痛1週，且疼痛由右側臀部往下延伸至小腿，尤其前外 側部分像針刺的麻痛感更為明顯。身體檢查發現右側足背背曲(dorsiflexion)的力量明顯 比左邊弱，大小便正常，核磁共振顯示椎間盤突出，最可能壓迫的神經部位為何？",
+      "options": {
+        "A": "第四節腰椎神經根",
+        "B": "第五節腰椎神經根",
+        "C": "第一節薦椎神經根",
+        "D": "馬尾神經叢"
+      },
+      "answer": "B",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 20,
+      "stem": "創傷性頭部傷害(traumatic brain injury)敘述，下列何者正確？",
+      "options": {
+        "A": "若明顯為藥物中毒導致之意識障礙，則不須做頭部電腦斷層",
+        "B": "電腦斷層無發現，即可排除頭部外傷的可能性",
+        "C": "嚴重腦傷之病人，目前僅建議維持O saturation高於90% 2",
+        "D": "需積極提升腦灌流壓(cerebral perfusion pressure)高於70mmHg"
+      },
+      "answer": "C",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 21,
+      "stem": "一位44歲女性起床後，感覺天旋地轉且持續數小時而就醫，經診斷為梅尼爾氏症 (Meniere disease)。其三個典型症狀，下列敘述何者錯誤？",
+      "options": {
+        "A": "嘔吐",
+        "B": "耳鳴",
+        "C": "時好時壞的感覺神經性聽力喪失",
+        "D": "陣發性旋轉性眩暈"
+      },
+      "answer": "A",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 22,
+      "stem": "一位50歲女性病人因半癱(paraparesis)數小時被送來急診，身體檢查發現雙下肢肌力皆 為3分、雙下肢深部肌腱反射減少、雙腳底巴賓斯基徵象陰性。請問下一步應該安排的 檢查為何？",
+      "options": {
+        "A": "腦部電腦斷層",
+        "B": "腦部磁振造影",
+        "C": "脊髓磁振造影",
+        "D": "下肢周邊神經誘發電位"
+      },
+      "answer": "C",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 23,
+      "stem": "疑似正中神經受壓迫，以下哪些評估會呈現陽性？ ①拇指外展無力 ②拇指內收無力 ③食指指腹感覺異常 ④食指背側蹼狀處感覺異常",
+      "options": {
+        "A": "①②",
+        "B": "③④",
+        "C": "①③",
+        "D": "②④"
+      },
+      "answer": "C",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 24,
+      "stem": "一位70歲男性在浴室向前滑倒撞到下巴撕裂傷。身體檢查雙上肢的肌力明顯比下肢差， 有上肢麻木刺痛感，無失禁現象。最可能的診斷為何？",
+      "options": {
+        "A": "中央脊髓症候群(central cord syndrome)",
+        "B": "前脊髓症候群(anterior cord syndrome)",
+        "C": "脊髓半切症候群(Brown-Sequard syndrome)",
+        "D": "馬尾症候群(cauda equina syndrome)"
+      },
+      "answer": "A",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 25,
+      "stem": "左側中大腦動脈(middle cerebral artery)阻塞造成的中風臨床表現，典型的病徵不包括下 列何者？",
+      "options": {
+        "A": "右側肢體無力",
+        "B": "失語症",
+        "C": "眼睛聚焦向右側",
+        "D": "意識改變"
+      },
+      "answer": "C",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 26,
+      "stem": "一位46歲女性患有毒性甲狀腺結節(toxic nodular goiter)，free T ：3.4 ng/dL，使用 4 propranolol與thio-urea(methimazole)治療，以下何者正確？",
+      "options": {
+        "A": "methimazole 可以改善功能，但是結節不易減小消失",
+        "B": "復發比例小於20%",
+        "C": "功能亢進時，建議儘速手術",
+        "D": "較Graves疾病更容易有凸眼症"
+      },
+      "answer": "A",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 27,
+      "stem": "糖尿病酮酸中毒的敘述，下列何者錯誤？",
+      "options": {
+        "A": "糖尿病酮酸中毒症狀可能會有腹部疼痛",
+        "B": "糖尿病酮酸中毒大部分沒有特殊誘發因子",
+        "C": "施以胰島素連續性注射治療時，需密集監測血中鉀離子濃度",
+        "D": "除了胰島素治療以外，水分的補充是治療糖尿病酮酸中毒關鍵"
+      },
+      "answer": "B",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 28,
+      "stem": "下肢靜脈血栓病人使用warfarin (Coumadin®)治療，下列注意事項何者正確？",
+      "options": {
+        "A": "預期達成治療性INR(International Normalized Ratio)數值為0.5-1.0",
+        "B": "使用此藥約24小時後即可發揮藥效，3日後可達到最高之藥效",
+        "C": "避免攝取某些可能會影響血液凝結之食品(例如：銀杏、紅麴)",
+        "D": "為達成治療性的INR目標數值，鼓勵個案多攝取綠葉蔬菜"
+      },
+      "answer": "C",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 29,
+      "stem": "一位65歲男性有肥胖、膽固醇過高、糖尿病和心血管疾病的病史，今天早上突然出現 胸痛，疑似急性心肌梗塞。心電圖檢查出現下列何種變化最具臨床意義？",
+      "options": {
+        "A": "ST斷上升超過2mm",
+        "B": "ST段下降",
+        "C": "病理性Q波",
+        "D": "新出現的AV block"
+      },
+      "answer": "A",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 30,
+      "stem": "一位60歲男性，高血壓病史，突然出現間歇性且會輻射到雙側肩胛骨間的劇烈胸痛， 右臂血壓為170/110 mmHg，左臂血壓為90/60 mmHg，心臟聽診能聽到舒張期的雜音， 心電圖正常，胸部X光顯示縱隔腔擴大。最可能的診斷為何？",
+      "options": {
+        "A": "心肌梗塞",
+        "B": "肺栓塞",
+        "C": "主動脈狹窄",
+        "D": "主動脈剝離"
+      },
+      "answer": "D",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 31,
+      "stem": "脊髓損傷病人之神經性膀胱(neurogenic bladder)描述，下列何者為正確？",
+      "options": {
+        "A": "下運動神經元神經性膀胱者呈現的是反射性的排尿型態",
+        "B": "上運動神經元神經性膀胱者其膀胱會無限制漲滿、無尿意感",
+        "C": "下運動神經元神經性膀胱者的球海綿體肌反射會呈現陽性",
+        "D": "上運動神經元神經性膀胱者的肛門外擴約肌張力試驗為陽性"
+      },
+      "answer": "D",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 32,
+      "stem": "一位32歲女性今早上起床開始左腰脇痛、噁心、發燒就醫。身體檢查：局部左下腹壓 痛，左脊椎與腰之間敲痛，白血球13,400/mm3，中性白血球86%，CRP 4.8 mg/dL，尿 液常規檢查白血球 80-100/HPF，下列敘述何者錯誤？",
+      "options": {
+        "A": "急性腎盂腎炎",
+        "B": "細菌可以經由尿路逆行進入腎盂而產生感染",
+        "C": "單純性下泌尿道感染",
+        "D": "細菌可以經由血流擴散而來"
+      },
+      "answer": "C",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 33,
+      "stem": "關於藥物相關之尿瀦留發生原因與機轉描述，下列何者為錯誤？",
+      "options": {
+        "A": "非類固醇抗炎藥物會抑制前列腺素製造，導致逼尿肌收縮受抑制產生尿瀦留",
+        "B": "抗膽鹼性藥物相關之尿瀦留，為副交感神經受抑制進而抑制逼尿肌收縮造成",
+        "C": "擬交感神經作用藥物相關之尿瀦留乃，因前列腺與膀胱頸平滑肌張力增加所致",
+        "D": "抗組織胺藥物相關之尿瀦留乃，因膀胱頸平滑肌、尿道外括約肌張力增加所致"
+      },
+      "answer": "D",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 34,
+      "stem": "譫妄症(delirium)之敘述，下列何者正確？",
+      "options": {
+        "A": "病人躁動不安時為譫妄，缺乏反應則為失智",
+        "B": "藥物治療應優先考慮benzodiazepines(BZD)類藥物",
+        "C": "可考慮使用環境療法，如增加夜晚照光時間",
+        "D": "處理相關導因後仍持續有譫妄的表現，病人可能有未診斷的失智症"
+      },
+      "answer": "D",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 35,
+      "stem": "一位45歲男性，有應酬性喝酒，全身倦怠及黃疸就醫，實驗室檢查為：ALT：1,500 U/L， AST：1,300 U/L，anti-HAV IgM(-)，anti-HAV IgG(+)，HBsAg(+)，HBeAg(+)，anti-HBc IgM(+)，anti-HBc IgG(-)，anti-HCV(-)，最可能的診斷為何？",
+      "options": {
+        "A": "酒精性肝炎",
+        "B": "急性A型肝炎",
+        "C": "急性B型肝炎",
+        "D": "慢性C型肝炎"
+      },
+      "answer": "C",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 36,
+      "stem": "一位55歲男性服用胃潰瘍藥物，因腹痛、噁心、嘔吐及發燒就醫。身體檢查為下腹壓 痛，血液檢查：白血球13,000/mm3、中性白血球78%、CRP：3.7mg/dL，最不可能的診 斷為何？",
+      "options": {
+        "A": "急性盲腸炎",
+        "B": "急性膽囊炎",
+        "C": "大腸憩室炎",
+        "D": "尿路結石合併發炎"
+      },
+      "answer": "B",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 37,
+      "stem": "一位68歲男性，診斷COPD，您在進行理學檢查，下列何項評估結果較不可能出現？",
+      "options": {
+        "A": "胸腔前後徑增加",
+        "B": "聽診時呼吸音清楚大聲",
+        "C": "叩診時為共鳴過強(hyperresonance)",
+        "D": "呼吸音出現乾囉音(rhonchi)"
+      },
+      "answer": "B",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 38,
+      "stem": "有關鬱血性心衰竭造成的肋膜積水之特徵，下列何者正確？ ①比重＜1.016 ②胸水血漿蛋白質比例＜0.5 ③葡萄糖濃度＜60mg/dL ④乳酸去氫比值＜0.6",
+      "options": {
+        "A": "①②",
+        "B": "③④",
+        "C": "①③",
+        "D": "②④"
+      },
+      "answer": "D",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 39,
+      "stem": "二尖瓣逆流所致的心雜音，下列何者錯誤？",
+      "options": {
+        "A": "心雜音出現的位置以心尖區域為主、偶會放射至左腋下區域",
+        "B": "多為中頻到高頻的輕柔或響亮聲音",
+        "C": "為收縮中期的心雜音",
+        "D": "常合併第一心音減弱及第三心音的出現"
+      },
+      "answer": "C",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 40,
+      "stem": "一位末期腎病病人，主訴頭暈、心悸及全身疲累，其心電圖如下，最有可能為下列哪 種電解質不平衡？",
+      "options": {
+        "A": "高血鈣症",
+        "B": "低血鈣症",
+        "C": "高血鉀症",
+        "D": "低血鉀症"
+      },
+      "answer": "C",
+      "is_multi": false,
+      "has_image": true,
+      "image": "data/images/108_2_tonglun_q40_1.jpg"
+    },
+    {
+      "num": 41,
+      "stem": "一位50歲女性，無心臟病史，因突發性心悸、胸悶、頭暈就醫，靜態心電圖顯示如下 圖，下列診斷及處置方式何者最適當？",
+      "options": {
+        "A": "心電圖顯示心房顫動(atrial fibrillation)",
+        "B": "若生命跡象穩定，可先採用valsalva maneuver或單側頸動脈竇按摩，抑制心律不整",
+        "C": "若需要使用藥物，應優先考慮procainamide",
+        "D": "若生命跡象不穩定或藥物使用無效，需用200焦耳非同步電擊去顫"
+      },
+      "answer": "B",
+      "is_multi": false,
+      "has_image": true,
+      "image": "data/images/108_2_tonglun_q41_1.jpg"
+    },
+    {
+      "num": 42,
+      "stem": "一位60歲男性，肝癌接受全身麻醉肝葉切除手術，術後出現肺擴張不全，身體檢查時 最可能有下列何種發現？",
+      "options": {
+        "A": "橫膈膜離軌度2公分",
+        "B": "叩診呈過度反響音",
+        "C": "觸覺震顫增加",
+        "D": "傳導性語音增加"
+      },
+      "answer": "A",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 43,
+      "stem": "肺部纖維化(fibrosis)後之肺功能變化，下列何者錯誤？",
+      "options": {
+        "A": "肺活量減少",
+        "B": "功能性肺餘容量增加",
+        "C": "運動時常呈現淺快呼吸型態",
+        "D": "通常第一秒用力呼氣容積會減少"
+      },
+      "answer": "B",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 44,
+      "stem": "有關子宮頸癌之描述，下列何者錯誤？",
+      "options": {
+        "A": "人類乳突病毒(HPV)持續感染是重要危險因素",
+        "B": "最常見之病理組織學為squamous cell carcinoma.",
+        "C": "人類乳突病毒疫苗(HPV vaccination)有分成不同的價數之製品",
+        "D": "20歲女性接受HPV疫苗接種後，就不須接受子宮頸抹片檢查"
+      },
+      "answer": "D",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 45,
+      "stem": "急性譫妄(acute delirium)與急性精神病發作(acute psychosis)的區分，在病史詢問中最重 要的三個問題，不包括下列何者？",
+      "options": {
+        "A": "本次發作是否伴隨胡言亂語或幻覺",
+        "B": "病人在發病前的精神與認知狀態",
+        "C": "最近的藥物使用史",
+        "D": "本次發作開始的時間與進程"
+      },
+      "answer": "A",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 46,
+      "stem": "一位30歲男性，打籃球時踩到別人的腳，當下左腳踝有些疼痛，經過冰敷，隔日左腳 踝腫脹瘀血。身體檢查發現左踝關節前側和外側壓痛，內翻(inversion)時引發劇烈疼痛。 最可能的診斷為何？",
+      "options": {
+        "A": "踝部扭傷(ankle sprain)",
+        "B": "阿基里斯腱斷裂(rupture of the Achilles tendon)",
+        "C": "蹠骨應力性骨折(metatarsal stress fracture)",
+        "D": "足底筋膜炎(plantar fasciitis)"
+      },
+      "answer": "A",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 47,
+      "stem": "一位60歲患有骨質疏鬆症之女性，有關指導鈣質攝取的敘述，下列何者正確？",
+      "options": {
+        "A": "成人鈣質攝取應每日600毫克",
+        "B": "一杯240c.c.牛奶含鈣量約有260-300毫克",
+        "C": "蔬菜含鈣量極低，吃素者容易骨質疏鬆症",
+        "D": "維他命A有助於鈣質的吸收"
+      },
+      "answer": "B",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 48,
+      "stem": "關於癌症發生骨轉移的病史評估及理學檢查，以下敘述何者錯誤？",
+      "options": {
+        "A": "通常是數天內急性發作的疼痛",
+        "B": "通常是在夜間會更痛",
+        "C": "通常具有明顯的敲痛",
+        "D": "若病患發生突然下肢無力(paraplegia)時，應考慮是否有脊椎轉移"
+      },
+      "answer": "A",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 49,
+      "stem": "衛生福利部國民健康署的口腔癌篩檢政策，下列敘述何者錯誤？",
+      "options": {
+        "A": "40歲以上現在有(或曾經有)嚼檳榔習慣及現在有吸菸習慣的民眾",
+        "B": "篩檢間隔為每兩年進行一次口腔檢查",
+        "C": "可以在社區診所、衛生所、醫院篩檢",
+        "D": "18歲以上至未滿30歲有嚼檳榔(含已戒)原住民"
+      },
+      "answer": "A",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 50,
+      "stem": "衛生福利部國民健康署的大腸癌篩檢政策，下列敘述何者錯誤？",
+      "options": {
+        "A": "50-74歲民眾每 2年 1次定量免疫法糞便潛血檢查",
+        "B": "每1～2年進行1次糞便潛血篩檢約可降低5成的大腸癌死亡率",
+        "C": "糞便潛血檢查呈陽性時，應進一步接受大腸鏡檢查",
+        "D": "大腸鏡檢查發現息肉時，可切除息肉"
+      },
+      "answer": "B",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 51,
+      "stem": "衛生福利部國民健康署依據「每日飲食指南」，將6大類食物份數規劃成「我的餐盤」。 下列敘述何者錯誤？",
+      "options": {
+        "A": "飯和蔬菜一樣多",
+        "B": "豆魚蛋肉一掌心",
+        "C": "水果和蔬菜一樣多",
+        "D": "每餐水果拳頭大"
+      },
+      "answer": "C",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 52,
+      "stem": "明顯肺氣腫(emphysema)病人做肺功能評估，以下何者為流量-容積圖(flow-volume curve) 最可能的表現？",
+      "options": {
+        "A": "",
+        "B": "",
+        "C": "",
+        "D": ""
+      },
+      "answer": "B",
+      "is_multi": false,
+      "has_image": true,
+      "option_images": {
+        "A": "data/images/108_2_tonglun_q52_A.jpg",
+        "B": "data/images/108_2_tonglun_q52_B.jpg",
+        "C": "data/images/108_2_tonglun_q52_C.jpg",
+        "D": "data/images/108_2_tonglun_q52_D.jpg"
+      }
+    },
+    {
+      "num": 53,
+      "stem": "一位48歲男性，有肝硬化病史，因腹部不適、吐鮮血、感覺頭暈、胸口悶脹就醫。下 列何者為最可能的診斷？",
+      "options": {
+        "A": "食道靜脈曲張",
+        "B": "潰瘍性結腸炎",
+        "C": "克隆氏症",
+        "D": "大腸憩室炎"
+      },
+      "answer": "A",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 54,
+      "stem": "一位30歲女性，主訴陣發性的下腹痛已將近一年，且一個月內最少有5-6天有腹痛伴隨 脹氣，通常解便後會較改善。有時拉肚子，有時又會便秘，但沒有解黑便或鮮血便， 身體檢查只有腹部輕微壓痛，實驗室檢查及大腸鏡檢查都無異常。下列何者為最可能 的診斷？",
+      "options": {
+        "A": "潰瘍性結腸炎",
+        "B": "克隆氏症",
+        "C": "大腸激躁症",
+        "D": "大腸癌"
+      },
+      "answer": "C",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 55,
+      "stem": "一位76歲女性，1～2個月來有漸進性全身倦怠無力、食慾降低、但體重增加，且常常 會覺得寒冷。身體檢查時身形略顯肥胖、表情冷漠、臉部浮腫、兩小腿脛前無壓陷性 水腫 (non-pitting edema)、四肢肌力下降、深肌腱反射正常。下列最可能的診斷為何？",
+      "options": {
+        "A": "甲狀腺功能低下症(hypothyroidism)",
+        "B": "第二型糖尿病(type II DM)",
+        "C": "重度憂鬱症(major depression)",
+        "D": "急性腦血管病變(acute cerebrovascular accident)"
+      },
+      "answer": "A",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 56,
+      "stem": "一位80歲男性，有認知功能異常伴有視幻覺及譫妄現象，肢體活動呈現類巴金森氏症 症狀，最可能的診斷為何？",
+      "options": {
+        "A": "阿茲海默症(Alzheimer disease)",
+        "B": "血管疾病引起認知障礙(vascular dementia)",
+        "C": "額顳葉認知障礙症(fronto-temporal dementia)",
+        "D": "路易氏體認知障礙症(dementia with Lewy body)"
+      },
+      "answer": "D",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 57,
+      "stem": "一位40歲男性，有發燒、頭痛及意識障礙，身體檢查Kerning sign為陽性，下列最可能 的診斷為何？",
+      "options": {
+        "A": "腦炎(encephalitis)",
+        "B": "腦瘤(brain tumor)",
+        "C": "腦內膿瘍(brain abscess)",
+        "D": "腦膜炎(meningitis)"
+      },
+      "answer": "D",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 58,
+      "stem": "在一項臨床試驗中，研究者隨機分配各100名病人至實驗組及對照組，其中實驗組有15 名病人死亡，對照組有20名病人死亡，其絕對風險減少率(absolute risk reduction, ARR) 為何？",
+      "options": {
+        "A": "5%",
+        "B": "15%",
+        "C": "20%",
+        "D": "25%"
+      },
+      "answer": "A",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 59,
+      "stem": "FOCUS-PDCA為美國推行持續性品質改善(CQI)常用的手法，下列何者不是 FOCUS-PDCA必須執行的步驟及內容？",
+      "options": {
+        "A": "組織瞭解該流程的團隊",
+        "B": "選擇流程改善計畫(方法)",
+        "C": "進行系統性文獻回顧建立實證指引",
+        "D": "評值成果且由團隊中學習"
+      },
+      "answer": "C",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 60,
+      "stem": "臨床診療指引常使用AGREE Ⅱ(Appraisal of Guidelines for Research & Evaluation Ⅱ) 做 為評估工具，相較原始AGREE，AGREE Ⅱ新增下列哪個評估項目？",
+      "options": {
+        "A": "清楚描述整體證據的強項與限制",
+        "B": "形成建議時，有考慮到健康效益，副作用及風險",
+        "C": "指引建議與其支持證據間有明確的關聯",
+        "D": "提供指引更新的程序"
+      },
+      "answer": "A",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 61,
+      "stem": "在GRADE (The Grading of Recommendations Assessment, Development and Evaluation) 評分系統中，影響證據品質的升級或降級因素，不包括下列何者？",
+      "options": {
+        "A": "偏差風險 (risk of bias)",
+        "B": "不一致性 (inconsistence)",
+        "C": "不精確性 (imprecision)",
+        "D": "直接性 (directness)"
+      },
+      "answer": "D",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 62,
+      "stem": "針對個案處於戒菸沉思期，適當的介入措施，下列何者正確？",
+      "options": {
+        "A": "給予吸菸壞處資訊，以減低吸菸興趣",
+        "B": "請個案描述與吸菸相關的所有優缺點",
+        "C": "選定一天為戒菸開始日",
+        "D": "加強自我解脫的意念"
+      },
+      "answer": "B",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 63,
+      "stem": "執行檢查前做病人辨識，這是屬於醫療品質架構的哪一要素？",
+      "options": {
+        "A": "結構",
+        "B": "結果",
+        "C": "過程",
+        "D": "策略"
+      },
+      "answer": "C",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 64,
+      "stem": "肌少症篩檢包括以下哪些項目？ ①柔軟度下降 ②握力下降 ③肌肉質量減少 ④行動力下降",
+      "options": {
+        "A": "①②③",
+        "B": "②③④",
+        "C": "①②④",
+        "D": "①③④"
+      },
+      "answer": "B",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 65,
+      "stem": "有關癌症與病原菌感染的關係，下列何者錯誤？",
+      "options": {
+        "A": "肺癌-Epstein–Barr virus (EBV)",
+        "B": "胃癌-Helicobacter pylori",
+        "C": "肝癌-HBV, HCV",
+        "D": "子宮頸癌-Human papillomavirus"
+      },
+      "answer": "A",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 66,
+      "stem": "依據Fried等學者所提出，有關高齡長者衰弱症(Frailty)的表現型診斷標準(phenotypic criteria)，下列何者錯誤？",
+      "options": {
+        "A": "肌力下降",
+        "B": "食慾下降",
+        "C": "行走速度減慢",
+        "D": "莫名體重減輕(unintentional weight loss)"
+      },
+      "answer": "B",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 67,
+      "stem": "有關結構、過程和結果相關健康照護指標，下列敘述何者正確？",
+      "options": {
+        "A": "每2年臨床指引修訂為過程指標",
+        "B": "依據臨床指引所治療病人的比例為結構指標",
+        "C": "生活品質為結果指標",
+        "D": "病人滿意度為過程指標"
+      },
+      "answer": "C",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 68,
+      "stem": "醫療團隊資源管理(Team Resource Management TRM)四個模組中，其中提到STEP強調 工作人員I'M SAFE的重要性，屬以下何種模組？",
+      "options": {
+        "A": "領導風格",
+        "B": "情境監測",
+        "C": "互相支援",
+        "D": "溝通"
+      },
+      "answer": "B",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 69,
+      "stem": "健康照護品質模式(Donabedian model)之結構、過程及結果等層面指標，下列敘述何者 正確？ ①結構面指影響照護因素，包括設施、設備和人力資源 ②結果面指有關病人所有健康照護因素，包括健康狀況、行為或知識之改變及病人滿 意度和與健康相關的生活質 ③過程面指構成醫療健康之所有行動的總和，包括診斷、治療及預防等照護，不含技 術流程及人際互動 ④結果面通常視為易觀察及測量 ⑤結構面通常視為最重要品質指標",
+      "options": {
+        "A": "①②",
+        "B": "②③",
+        "C": "③④",
+        "D": "④⑤"
+      },
+      "answer": "A",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 70,
+      "stem": "100位罹患急迫性尿失禁的病人中，有90位有咖啡因攝取史，另外100位沒有急迫性尿 失禁問題的人，其中有45位有咖啡因攝取史。請問有咖啡因攝取史的人發生急迫性尿 失禁的勝算比 (odds ratio, OR)？",
+      "options": {
+        "A": "0.36",
+        "B": "0.55",
+        "C": "2",
+        "D": "11"
+      },
+      "answer": "D",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 71,
+      "stem": "病人出現正氮平衡時(positive nitrogen balance)，可能是有達到下列哪一項治療的指標？",
+      "options": {
+        "A": "全靜脈營養",
+        "B": "肌力訓練",
+        "C": "輸液補充",
+        "D": "維他命補充"
+      },
+      "answer": "A",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 72,
+      "stem": "下列何者與傳導性聽力喪失有關？ ①長期暴露在噪音中 ②最近有中耳感染 ③Rinne test AC > BC ④Rinne test BC > AC (AC：air conduction；BC：bone conduction)",
+      "options": {
+        "A": "①③",
+        "B": "①④",
+        "C": "②③",
+        "D": "②④"
+      },
+      "answer": "D",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 73,
+      "stem": "CPR過程中，專科護理師與護理師從醫師口中聽到不同的醫囑而有衝突，此情況屬團隊 資源管理(team resource management, TRM)中的何種問題及其解決方式為何？",
+      "options": {
+        "A": "意見衝突，採用Two challenge rule (重申關切，再次確認)方式解決",
+        "B": "資訊衝突，採用Two challenge rule (重申關切，再次確認)方式解決",
+        "C": "意見衝突，採用DESC (Describe狀況、Express關心、Suggest方案、預期Consequences) 方式解決",
+        "D": "資訊衝突，採用DESC (Describe狀況、Express關心、Suggest方案、預期Consequences) 方式解決"
+      },
+      "answer": "B",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 74,
+      "stem": "假設醫院婦產科品質指標，剖腹產率不能高於50%，以下醫院年生產的資料中，下列醫 院資料何者最為異常，需要介入管理？",
+      "options": {
+        "A": "甲醫院：4位產婦，3位剖腹產",
+        "B": "乙醫院：2位產婦，2位皆剖腹產",
+        "C": "丙醫院：10位產婦，7位剖腹產",
+        "D": "丁醫院：30位產婦，21位剖腹產"
+      },
+      "answer": "D",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 75,
+      "stem": "一位36歲男性，抱怨昨天突然左側頭痛厲害，易清晨發作，眼睛周圍也會痛，伴隨同 側鼻水、鼻塞，以前也曾經發作，一天發作1～3次，最有可能的問題為何？",
+      "options": {
+        "A": "tension type headache",
+        "B": "headache related to sinusitis",
+        "C": "cluster headache",
+        "D": "migraine with aura"
+      },
+      "answer": "C",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 76,
+      "stem": "下列哪些項因素較不可能影響術後病人傷口癒合？",
+      "options": {
+        "A": "抽菸",
+        "B": "止痛藥",
+        "C": "缺氧",
+        "D": "β-blocker藥物"
+      },
+      "answer": "B",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 77,
+      "stem": "禽流感期間，所有的鵝雞皆被撲殺，此策略是為了阻斷感染鏈的哪一環？",
+      "options": {
+        "A": "撲殺致病原",
+        "B": "阻隔傳染途徑",
+        "C": "傳染窩管制",
+        "D": "減少傳染窩出口"
+      },
+      "answer": "C",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 78,
+      "stem": "下列何者不是造成腹瀉之常見藥物？",
+      "options": {
+        "A": "毛地黃(digitalis)",
+        "B": "秋水仙素(colchicine)",
+        "C": "抗生素(antimicrobial agents)",
+        "D": "鈣離子阻斷劑(calcium channel blockers)"
+      },
+      "answer": "D",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 79,
+      "stem": "會增加骨質疏鬆風險之藥物，下列何者錯誤？",
+      "options": {
+        "A": "利尿劑",
+        "B": "甲狀腺素",
+        "C": "鋰鹽",
+        "D": "類固醇"
+      },
+      "answer": "A",
+      "is_multi": false,
+      "has_image": false
+    },
+    {
+      "num": 80,
+      "stem": "根據醫院醫療品質及病人安全年度工作目標，為降低留置性導尿管相關尿路感染 (catheter associated urinary tract infection)，下列措施何者較不適當？",
+      "options": {
+        "A": "減少不必要的留置性導尿管",
+        "B": "應定期更換導尿管以防感染",
+        "C": "導尿管需保持系統的密閉性",
+        "D": "放置留置性導尿管需無菌操作"
+      },
+      "answer": "B",
+      "is_multi": false,
+      "has_image": false
+    }
+  ]
+}

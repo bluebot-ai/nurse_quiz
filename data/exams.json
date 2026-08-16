@@ -119,6 +119,106 @@
       "subject": "通論",
       "total": 80,
       "file": "data/109_tonglun.json"
+    },
+    {
+      "id": "108_2_neike",
+      "title": "108年度 內科（第二次）",
+      "subtitle": "進階專科護理",
+      "year": 108,
+      "ad_year": 2019,
+      "subject": "內科",
+      "total": 80,
+      "file": "data/108_2_neike.json"
+    },
+    {
+      "id": "108_2_tonglun",
+      "title": "108年度 通論（第二次）",
+      "subtitle": "專科護理通論",
+      "year": 108,
+      "ad_year": 2019,
+      "subject": "通論",
+      "total": 80,
+      "file": "data/108_2_tonglun.json"
+    },
+    {
+      "id": "108_1_neike",
+      "title": "108年度 內科（第一次）",
+      "subtitle": "進階專科護理",
+      "year": 108,
+      "ad_year": 2019,
+      "subject": "內科",
+      "total": 80,
+      "file": "data/108_1_neike.json"
+    },
+    {
+      "id": "108_1_tonglun",
+      "title": "108年度 通論（第一次）",
+      "subtitle": "專科護理通論",
+      "year": 108,
+      "ad_year": 2019,
+      "subject": "通論",
+      "total": 80,
+      "file": "data/108_1_tonglun.json"
+    },
+    {
+      "id": "107_neike",
+      "title": "107年度 內科",
+      "subtitle": "進階專科護理",
+      "year": 107,
+      "ad_year": 2018,
+      "subject": "內科",
+      "total": 80,
+      "file": "data/107_neike.json"
+    },
+    {
+      "id": "107_tonglun",
+      "title": "107年度 通論",
+      "subtitle": "專科護理通論",
+      "year": 107,
+      "ad_year": 2018,
+      "subject": "通論",
+      "total": 80,
+      "file": "data/107_tonglun.json"
+    },
+    {
+      "id": "106_neike",
+      "title": "106年度 內科",
+      "subtitle": "進階專科護理",
+      "year": 106,
+      "ad_year": 2017,
+      "subject": "內科",
+      "total": 80,
+      "file": "data/106_neike.json"
+    },
+    {
+      "id": "106_tonglun",
+      "title": "106年度 通論",
+      "subtitle": "專科護理通論",
+      "year": 106,
+      "ad_year": 2017,
+      "subject": "通論",
+      "total": 80,
+      "file": "data/106_tonglun.json"
+    },
+    {
+      "id": "105_neike",
+      "title": "105年度 內科",
+      "subtitle": "進階專科護理",
+      "year": 105,
+      "ad_year": 2016,
+      "subject": "內科",
+      "total": 80,
+      "file": "data/105_neike.json"
+    },
+    {
+      "id": "105_tonglun",
+      "title": "105年度 通論",
+      "subtitle": "專科護理通論",
+      "year": 105,
+      "ad_year": 2016,
+      "subject": "通論",
+      "total": 80,
+      "file": "data/105_tonglun.json"
     }
   ]
 }
